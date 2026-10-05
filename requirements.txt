@@ -1,0 +1,6 @@
+nflreadpy
+pandas
+numpy
+scipy
+lightgbm
+pyarrow

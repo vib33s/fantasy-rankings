@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weekly fantasy football projections</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --chalk: #f5f6f1;
+    --paper: #ffffff;
+    --ink: #14213d;
+    --ink-soft: #55607a;
+    --line: #dde1d8;
+    --turf: #2e6b4f;
+    --turf-soft: #cfe3d6;
+    --qb: #6b3f8c;
+    --rb: #1f7a74;
+    --wr: #a8680f;
+    --te: #2f5f9e;
+    --warn-bg: #fff3d6;
+    --warn-ink: #6b4a00;
+    --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+    --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 1rem; }
+  body {
+    margin: 0; background: var(--chalk); color: var(--ink);
+    font: 400 16px/1.5 var(--body); font-variant-numeric: tabular-nums;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+
+  h1 {
+    font: 800 clamp(2.4rem, 7vw, 4.2rem)/0.98 var(--display);
+    letter-spacing: -0.03em; margin: 0 0 0.6rem;
+  }
+  .sub { color: var(--ink-soft); margin: 0 0 1.6rem; max-width: 60ch; }
+
+  .notice {
+    background: var(--warn-bg); color: var(--warn-ink);
+    border-left: 4px solid #d99a00; padding: 0.7rem 1rem; margin: 0 0 1.4rem;
+    border-radius: 0 6px 6px 0; max-width: 70ch; font-size: 0.95rem;
+  }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; margin-bottom: 1rem; }
+  .seg { display: inline-flex; border: 1.5px solid var(--ink); border-radius: 8px; overflow: hidden; background: var(--paper); }
+  .seg button {
+    font: 600 0.92rem var(--body); color: var(--ink); background: transparent;
+    border: 0; padding: 0.5rem 0.95rem; cursor: pointer;
+  }
+  .seg button + button { border-left: 1.5px solid var(--ink); }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--chalk); }
+  input[type="search"] {
+    font: 400 0.95rem var(--body); padding: 0.52rem 0.8rem; min-width: 12rem;
+    border: 1.5px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink);
+  }
+  :focus-visible { outline: 3px solid #e0a100; outline-offset: 2px; }
+
+  .board { width: 100%; border-collapse: collapse; background: var(--paper); border-radius: 10px; overflow: hidden; box-shadow: 0 0 0 1px var(--line); }
+  .board th, .board td { padding: 0.65rem 0.8rem; text-align: left; border-bottom: 1px solid var(--line); }
+  .board tbody tr:last-child td { border-bottom: 0; }
+  .board th { font: 600 0.82rem var(--body); color: var(--ink-soft); background: #fafbf8; white-space: nowrap; }
+  .board th button { all: unset; cursor: pointer; font: inherit; color: inherit; }
+  .board th button:hover { color: var(--ink); text-decoration: underline; }
+  .board th[aria-sort="ascending"] button::after { content: " ▲"; font-size: 0.7em; }
+  .board th[aria-sort="descending"] button::after { content: " ▼"; font-size: 0.7em; }
+  .num { text-align: right !important; }
+  .rank { width: 3.2rem; font: 700 1.05rem var(--display); color: var(--ink-soft); }
+  .who strong { font: 700 1.05rem var(--display); letter-spacing: -0.01em; }
+  .who small { display: block; color: var(--ink-soft); font-size: 0.82rem; }
+  .pos { font-weight: 600; }
+  .pos[data-p="QB"] { color: var(--qb); } .pos[data-p="RB"] { color: var(--rb); }
+  .pos[data-p="WR"] { color: var(--wr); } .pos[data-p="TE"] { color: var(--te); }
+  .tag { display: inline-block; margin-left: 0.4rem; padding: 0 0.4rem; border-radius: 4px; background: var(--warn-bg); color: var(--warn-ink); font-size: 0.75rem; font-weight: 600; }
+  .proj { font: 800 1.3rem var(--display); }
+
+  /* the one memorable element: floor-to-ceiling range on a shared scale */
+  .range { position: relative; height: 1.1rem; min-width: 150px; }
+  .range::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--line); }
+  .range .span { position: absolute; top: 50%; height: 0.55rem; transform: translateY(-50%); background: var(--turf-soft); border-radius: 99px; }
+  .range .tick { position: absolute; top: 0; bottom: 0; width: 3px; margin-left: -1.5px; background: var(--turf); border-radius: 2px; }
+  .legend { color: var(--ink-soft); font-size: 0.85rem; margin: 0.8rem 0 0; }
+  .empty { padding: 2rem; text-align: center; color: var(--ink-soft); }
+
+  h2 { font: 800 1.7rem/1.1 var(--display); letter-spacing: -0.02em; margin: 3.2rem 0 0.5rem; }
+  .accuracy p { max-width: 68ch; color: var(--ink-soft); margin: 0 0 1rem; }
+  .acc { width: 100%; max-width: 760px; border-collapse: collapse; background: var(--paper); border-radius: 10px; overflow: hidden; box-shadow: 0 0 0 1px var(--line); }
+  .acc th, .acc td { padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--line); text-align: right; }
+  .acc th:first-child, .acc td:first-child { text-align: left; }
+  .acc thead th { font-size: 0.82rem; color: var(--ink-soft); background: #fafbf8; font-weight: 600; }
+  .acc tbody tr:last-child td { border-bottom: 0; }
+  .acc td.best { font-weight: 700; color: var(--turf); }
+  footer { margin-top: 2.5rem; color: var(--ink-soft); font-size: 0.85rem; max-width: 68ch; }
+
+  @media (max-width: 640px) {
+    .col-last3, .col-implied { display: none; }
+    .range { min-width: 90px; }
+    .board th, .board td { padding: 0.55rem 0.5rem; }
+    input[type="search"] { min-width: 0; flex: 1; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1 id="title">Fantasy projections</h1>
+  <p class="sub" id="sub">Loading the latest rankings...</p>
+  <div class="notice" id="notice" hidden></div>
+
+  <div class="controls">
+    <div class="seg" id="seg" role="group" aria-label="Filter by position">
+      <button type="button" data-pos="ALL" aria-pressed="true">All</button>
+      <button type="button" data-pos="QB" aria-pressed="false">QB</button>
+      <button type="button" data-pos="RB" aria-pressed="false">RB</button>
+      <button type="button" data-pos="WR" aria-pressed="false">WR</button>
+      <button type="button" data-pos="TE" aria-pressed="false">TE</button>
+    </div>
+    <input type="search" id="q" placeholder="Search player or team" aria-label="Search player or team">
+  </div>
+
+  <table class="board" id="board">
+    <thead>
+      <tr>
+        <th class="rank" data-sort="rank" aria-sort="ascending"><button type="button">Rank</button></th>
+        <th data-sort="name"><button type="button">Player</button></th>
+        <th class="num" data-sort="proj"><button type="button">Projected</button></th>
+        <th>Floor to ceiling</th>
+        <th class="num col-last3" data-sort="last3"><button type="button">Last 3 avg</button></th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="legend">The shaded bar spans each player's likely low-end and high-end outcome (15th to 85th percentile). The dark tick is the projection. All bars share one scale, so you can compare players down the page.</p>
+
+  <section class="accuracy" id="accuracy" hidden>
+    <h2>How accurate is this?</h2>
+    <p id="acc-intro"></p>
+    <table class="acc">
+      <thead>
+        <tr>
+          <th rowspan="2">Position</th>
+          <th colspan="3">Average miss, in points (lower is better)</th>
+          <th colspan="3">Rank correlation (higher is better)</th>
+        </tr>
+        <tr>
+          <th>Model</th><th>Last 3 games</th><th>Season avg</th>
+          <th>Model</th><th>Last 3 games</th><th>Season avg</th>
+        </tr>
+      </thead>
+      <tbody id="acc-rows"></tbody>
+    </table>
+  </section>
+
+  <footer>
+    Projections come from a machine learning model trained on past NFL games. It does not read the news, so check injury and inactive reports before you set a lineup.
+  </footer>
+</main>
+
+<script>
+const state = { pos: "ALL", q: "", sort: "rank", dir: 1, data: null };
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+fetch("rankings.json", { cache: "no-cache" })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(init)
+  .catch(() => {
+    $("sub").textContent = "Couldn't load rankings.json. If you opened this file directly, serve the docs folder instead (python -m http.server inside docs).";
+  });
+
+function init(data) {
+  state.data = data;
+  $("title").textContent = `Week ${data.week} projections`;
+  $("sub").textContent = `${data.season} season, ${data.scoring} scoring. Updated ${data.updated}.`;
+  if (!data.injuries_checked) {
+    const n = $("notice");
+    n.hidden = false;
+    n.textContent = `The NFL hasn't posted Week ${data.week} injury reports yet, so players who end up inactive may still appear below.`;
+  }
+  const top = Math.max(...data.players.map((p) => p.ceiling));
+  state.scale = Math.ceil(top / 5) * 5;
+  renderAccuracy(data.metrics);
+  render();
+}
+
+function visible() {
+  const q = state.q.trim().toLowerCase();
+  let list = state.data.players.filter((p) =>
+    (state.pos === "ALL" || p.pos === state.pos) &&
+    (!q || p.name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q)));
+  const key = { rank: (p) => (state.pos === "ALL" ? p.rank : p.pos_rank), name: (p) => p.name, proj: (p) => p.proj, last3: (p) => p.last3 ?? -1 }[state.sort];
+  return list.sort((a, b) => {
+    const x = key(a), y = key(b);
+    return (x < y ? -1 : x > y ? 1 : 0) * state.dir;
+  });
+}
+
+function render() {
+  const list = visible();
+  if (!list.length) {
+    $("rows").innerHTML = `<tr><td colspan="5" class="empty">No players match. Clear the search or pick another position.</td></tr>`;
+    return;
+  }
+  const s = state.scale;
+  $("rows").innerHTML = list.map((p) => {
+    const left = (p.floor / s) * 100, width = ((p.ceiling - p.floor) / s) * 100, at = (p.proj / s) * 100;
+    const label = `Floor ${p.floor}, projection ${p.proj}, ceiling ${p.ceiling}`;
+    const where = p.home === null ? "vs" : p.home ? "vs" : "at";
+    const rank = state.pos === "ALL" ? p.rank : p.pos_rank;
+    return `<tr>
+      <td class="rank">${rank}</td>
+      <td class="who"><strong>${esc(p.name)}</strong>${p.injury ? `<span class="tag">${esc(p.injury)}</span>` : ""}
+        <small><span class="pos" data-p="${p.pos}">${p.pos}</span> ${esc(p.team)} ${where} ${esc(p.opp)}</small></td>
+      <td class="num proj">${p.proj.toFixed(1)}</td>
+      <td><div class="range" role="img" aria-label="${label}" title="${label}">
+        <div class="span" style="left:${left}%;width:${width}%"></div>
+        <div class="tick" style="left:${at}%"></div></div></td>
+      <td class="num col-last3">${p.last3 === null ? "-" : p.last3.toFixed(1)}</td>
+    </tr>`;
+  }).join("");
+}
+
+function renderAccuracy(m) {
+  if (!m) return;
+  $("accuracy").hidden = false;
+  $("acc-intro").textContent = `We tested the model on the ${m.test_season} season: games it never saw while training, limited to players averaging 8+ points. "Average miss" is how far off the projection was, on average. Rank correlation is how well each method ordered players within a week (1.0 is perfect).`;
+  const cols = ["pred", "base_last3", "base_season"];
+  $("acc-rows").innerHTML = Object.entries(m.by_position).map(([pos, r]) => {
+    const bestMae = Math.min(...cols.map((c) => r.mae[c]));
+    const bestRho = Math.max(...cols.map((c) => r.spearman[c]));
+    return `<tr><td>${pos}</td>` +
+      cols.map((c) => `<td class="${r.mae[c] === bestMae ? "best" : ""}">${r.mae[c].toFixed(2)}</td>`).join("") +
+      cols.map((c) => `<td class="${r.spearman[c] === bestRho ? "best" : ""}">${r.spearman[c].toFixed(3)}</td>`).join("") + `</tr>`;
+  }).join("");
+}
+
+$("seg").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  state.pos = b.dataset.pos;
+  document.querySelectorAll("#seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+  render();
+});
+$("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+document.querySelector("#board thead").addEventListener("click", (e) => {
+  const th = e.target.closest("th[data-sort]"); if (!th) return;
+  const key = th.dataset.sort;
+  if (state.sort === key) state.dir *= -1;
+  else { state.sort = key; state.dir = key === "rank" || key === "name" ? 1 : -1; }
+  document.querySelectorAll("#board th[data-sort]").forEach((x) => {
+    if (x === th) x.setAttribute("aria-sort", state.dir === 1 ? "ascending" : "descending");
+    else x.removeAttribute("aria-sort");
+  });
+  render();
+});
+</script>
+</body>
+</html>
