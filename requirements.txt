@@ -2,5 +2,6 @@ nflreadpy
 pandas
 numpy
 scipy
+scikit-learn
 lightgbm
 pyarrow
