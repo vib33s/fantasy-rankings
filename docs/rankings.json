@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 20:08 UTC",
+ "updated": "2026-10-18 17:01 UTC",
  "season": 2026,
  "week": 7,
  "scoring": "PPR",
@@ -372,7 +372,7 @@
    "floor": 9.1,
    "ceiling": 24.5,
    "last3": 18.6,
-   "implied": 24.2,
+   "implied": 24.5,
    "injury": null,
    "rank": 21,
    "pos_rank": 10
@@ -702,7 +702,7 @@
    "floor": 5.8,
    "ceiling": 22.5,
    "last3": 20.9,
-   "implied": 24.2,
+   "implied": 24.5,
    "injury": null,
    "rank": 43,
    "pos_rank": 10
@@ -1000,9 +1000,9 @@
    "home": false,
    "proj": 13.3,
    "floor": 5.2,
-   "ceiling": 22.2,
+   "ceiling": 22.1,
    "last3": 16.4,
-   "implied": 17.2,
+   "implied": 17.0,
    "injury": null,
    "rank": 63,
    "pos_rank": 4
@@ -1098,21 +1098,6 @@
    "pos_rank": 5
   },
   {
-   "name": "Jameis Winston",
-   "pos": "QB",
-   "team": "NYG",
-   "opp": "HOU",
-   "home": false,
-   "proj": 12.6,
-   "floor": 5.2,
-   "ceiling": 20.8,
-   "last3": 16.6,
-   "implied": 17.2,
-   "injury": null,
-   "rank": 70,
-   "pos_rank": 27
-  },
-  {
    "name": "Tucker Kraft",
    "pos": "TE",
    "team": "GB",
@@ -1124,7 +1109,7 @@
    "last3": 11.6,
    "implied": 24.8,
    "injury": null,
-   "rank": 71,
+   "rank": 70,
    "pos_rank": 6
   },
   {
@@ -1139,23 +1124,23 @@
    "last3": 8.0,
    "implied": 27.0,
    "injury": null,
-   "rank": 72,
+   "rank": 71,
    "pos_rank": 7
   },
   {
-   "name": "Cam Skattebo",
-   "pos": "RB",
+   "name": "Jameis Winston",
+   "pos": "QB",
    "team": "NYG",
    "opp": "HOU",
    "home": false,
-   "proj": 12.3,
-   "floor": 4.8,
-   "ceiling": 19.9,
-   "last3": 9.2,
-   "implied": 17.2,
+   "proj": 12.4,
+   "floor": 5.2,
+   "ceiling": 20.8,
+   "last3": 16.6,
+   "implied": 17.0,
    "injury": null,
-   "rank": 73,
-   "pos_rank": 18
+   "rank": 72,
+   "pos_rank": 27
   },
   {
    "name": "Emeka Egbuka",
@@ -1169,8 +1154,23 @@
    "last3": 10.6,
    "implied": 20.8,
    "injury": null,
-   "rank": 74,
+   "rank": 73,
    "pos_rank": 22
+  },
+  {
+   "name": "Cam Skattebo",
+   "pos": "RB",
+   "team": "NYG",
+   "opp": "HOU",
+   "home": false,
+   "proj": 12.3,
+   "floor": 4.8,
+   "ceiling": 20.0,
+   "last3": 9.2,
+   "implied": 17.0,
+   "injury": null,
+   "rank": 74,
+   "pos_rank": 18
   },
   {
    "name": "Malik Willis",
@@ -1233,21 +1233,6 @@
    "pos_rank": 24
   },
   {
-   "name": "Malik Nabers",
-   "pos": "WR",
-   "team": "NYG",
-   "opp": "HOU",
-   "home": false,
-   "proj": 11.8,
-   "floor": 5.6,
-   "ceiling": 19.6,
-   "last3": 20.0,
-   "implied": 17.2,
-   "injury": null,
-   "rank": 79,
-   "pos_rank": 25
-  },
-  {
    "name": "Cam Ward",
    "pos": "QB",
    "team": "TEN",
@@ -1259,8 +1244,23 @@
    "last3": 10.0,
    "implied": 18.0,
    "injury": null,
-   "rank": 80,
+   "rank": 79,
    "pos_rank": 29
+  },
+  {
+   "name": "Malik Nabers",
+   "pos": "WR",
+   "team": "NYG",
+   "opp": "HOU",
+   "home": false,
+   "proj": 11.8,
+   "floor": 5.5,
+   "ceiling": 19.2,
+   "last3": 20.0,
+   "implied": 17.0,
+   "injury": null,
+   "rank": 80,
+   "pos_rank": 25
   },
   {
    "name": "Kyle Monangai",
@@ -1557,7 +1557,7 @@
    "floor": 2.9,
    "ceiling": 15.8,
    "last3": 5.0,
-   "implied": 24.2,
+   "implied": 24.5,
    "injury": null,
    "rank": 100,
    "pos_rank": 12
@@ -1812,7 +1812,7 @@
    "floor": 2.0,
    "ceiling": 16.2,
    "last3": 9.9,
-   "implied": 24.2,
+   "implied": 24.5,
    "injury": null,
    "rank": 117,
    "pos_rank": 31
@@ -2003,11 +2003,11 @@
    "team": "HOU",
    "opp": "NYG",
    "home": true,
-   "proj": 8.3,
+   "proj": 8.4,
    "floor": 2.3,
    "ceiling": 15.8,
    "last3": 8.9,
-   "implied": 24.2,
+   "implied": 24.5,
    "injury": null,
    "rank": 130,
    "pos_rank": 45
@@ -2110,9 +2110,9 @@
    "home": false,
    "proj": 7.9,
    "floor": 0.4,
-   "ceiling": 14.6,
+   "ceiling": 14.9,
    "last3": 5.5,
-   "implied": 17.2,
+   "implied": 17.0,
    "injury": null,
    "rank": 137,
    "pos_rank": 31
@@ -2193,6 +2193,21 @@
    "pos_rank": 51
   },
   {
+   "name": "Jaylin Noel",
+   "pos": "WR",
+   "team": "HOU",
+   "opp": "NYG",
+   "home": true,
+   "proj": 7.6,
+   "floor": 1.0,
+   "ceiling": 13.3,
+   "last3": 10.5,
+   "implied": 24.5,
+   "injury": null,
+   "rank": 143,
+   "pos_rank": 52
+  },
+  {
    "name": "Kyle Pitts",
    "pos": "TE",
    "team": "ATL",
@@ -2204,7 +2219,7 @@
    "last3": 8.1,
    "implied": 22.5,
    "injury": null,
-   "rank": 143,
+   "rank": 144,
    "pos_rank": 26
   },
   {
@@ -2218,21 +2233,6 @@
    "ceiling": 14.4,
    "last3": 9.5,
    "implied": 23.5,
-   "injury": null,
-   "rank": 144,
-   "pos_rank": 52
-  },
-  {
-   "name": "Jaylin Noel",
-   "pos": "WR",
-   "team": "HOU",
-   "opp": "NYG",
-   "home": true,
-   "proj": 7.6,
-   "floor": 1.0,
-   "ceiling": 13.3,
-   "last3": 10.5,
-   "implied": 24.2,
    "injury": null,
    "rank": 145,
    "pos_rank": 53
@@ -2658,6 +2658,21 @@
    "pos_rank": 68
   },
   {
+   "name": "David Montgomery",
+   "pos": "RB",
+   "team": "HOU",
+   "opp": "NYG",
+   "home": true,
+   "proj": 6.0,
+   "floor": 1.4,
+   "ceiling": 12.5,
+   "last3": 4.1,
+   "implied": 24.5,
+   "injury": null,
+   "rank": 174,
+   "pos_rank": 43
+  },
+  {
    "name": "Mitchell Tinsley",
    "pos": "WR",
    "team": "CIN",
@@ -2669,7 +2684,7 @@
    "last3": 3.5,
    "implied": 23.5,
    "injury": null,
-   "rank": 174,
+   "rank": 175,
    "pos_rank": 69
   },
   {
@@ -2684,23 +2699,23 @@
    "last3": 4.9,
    "implied": 20.0,
    "injury": null,
-   "rank": 175,
+   "rank": 176,
    "pos_rank": 70
   },
   {
-   "name": "David Montgomery",
-   "pos": "RB",
+   "name": "Kayshon Boutte",
+   "pos": "WR",
    "team": "HOU",
    "opp": "NYG",
    "home": true,
    "proj": 5.9,
-   "floor": 1.4,
-   "ceiling": 12.5,
-   "last3": 4.1,
-   "implied": 24.2,
+   "floor": 0.5,
+   "ceiling": 11.7,
+   "last3": 5.8,
+   "implied": 24.5,
    "injury": null,
-   "rank": 176,
-   "pos_rank": 43
+   "rank": 177,
+   "pos_rank": 71
   },
   {
    "name": "Isaiah Williams",
@@ -2713,21 +2728,6 @@
    "ceiling": 11.3,
    "last3": 7.1,
    "implied": 21.5,
-   "injury": null,
-   "rank": 177,
-   "pos_rank": 71
-  },
-  {
-   "name": "Kayshon Boutte",
-   "pos": "WR",
-   "team": "HOU",
-   "opp": "NYG",
-   "home": true,
-   "proj": 5.9,
-   "floor": 0.5,
-   "ceiling": 11.7,
-   "last3": 5.8,
-   "implied": 24.2,
    "injury": null,
    "rank": 178,
    "pos_rank": 72
@@ -2903,11 +2903,11 @@
    "team": "NYG",
    "opp": "HOU",
    "home": false,
-   "proj": 5.5,
+   "proj": 5.4,
    "floor": 0.6,
    "ceiling": 10.1,
    "last3": 7.0,
-   "implied": 17.2,
+   "implied": 17.0,
    "injury": null,
    "rank": 190,
    "pos_rank": 78
@@ -2952,7 +2952,7 @@
    "floor": 0.0,
    "ceiling": 10.4,
    "last3": 2.8,
-   "implied": 17.2,
+   "implied": 17.0,
    "injury": null,
    "rank": 193,
    "pos_rank": 81
@@ -3280,9 +3280,9 @@
    "home": false,
    "proj": 4.6,
    "floor": 0.4,
-   "ceiling": 8.0,
+   "ceiling": 7.6,
    "last3": 4.5,
-   "implied": 17.2,
+   "implied": 17.0,
    "injury": null,
    "rank": 215,
    "pos_rank": 41
@@ -3492,7 +3492,7 @@
    "floor": 0.2,
    "ceiling": 7.6,
    "last3": 4.2,
-   "implied": 24.2,
+   "implied": 24.5,
    "injury": null,
    "rank": 229,
    "pos_rank": 48
