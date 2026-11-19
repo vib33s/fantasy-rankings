@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-17 20:43 UTC",
+ "updated": "2026-11-19 23:56 UTC",
  "season": 2026,
  "week": 11,
  "scoring": "PPR",
- "injuries_checked": false,
+ "injuries_checked": true,
  "metrics": {
   "test_season": 2025,
   "by_position": {
@@ -68,11 +68,11 @@
    "team": "BUF",
    "opp": "MIA",
    "home": true,
-   "proj": 23.8,
+   "proj": 23.7,
    "floor": 13.3,
    "ceiling": 30.9,
    "last3": 20.6,
-   "implied": 31.0,
+   "implied": 30.5,
    "injury": null,
    "rank": 1,
    "pos_rank": 1
@@ -87,7 +87,7 @@
    "floor": 12.5,
    "ceiling": 30.4,
    "last3": 24.6,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
    "rank": 2,
    "pos_rank": 2
@@ -100,9 +100,9 @@
    "home": true,
    "proj": 22.2,
    "floor": 8.8,
-   "ceiling": 29.6,
+   "ceiling": 29.4,
    "last3": 19.5,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
    "rank": 3,
    "pos_rank": 1
@@ -115,9 +115,9 @@
    "home": false,
    "proj": 21.5,
    "floor": 12.9,
-   "ceiling": 27.2,
+   "ceiling": 27.5,
    "last3": 34.1,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
    "rank": 4,
    "pos_rank": 3
@@ -147,10 +147,25 @@
    "floor": 13.2,
    "ceiling": 27.5,
    "last3": 25.8,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
    "rank": 6,
    "pos_rank": 5
+  },
+  {
+   "name": "Christian McCaffrey",
+   "pos": "RB",
+   "team": "SF",
+   "opp": "MIN",
+   "home": true,
+   "proj": 20.2,
+   "floor": 9.7,
+   "ceiling": 30.4,
+   "last3": 30.3,
+   "implied": 25.0,
+   "injury": null,
+   "rank": 7,
+   "pos_rank": 2
   },
   {
    "name": "Caleb Williams",
@@ -164,38 +179,8 @@
    "last3": 16.3,
    "implied": 30.0,
    "injury": null,
-   "rank": 7,
-   "pos_rank": 6
-  },
-  {
-   "name": "Christian McCaffrey",
-   "pos": "RB",
-   "team": "SF",
-   "opp": "MIN",
-   "home": true,
-   "proj": 19.7,
-   "floor": 9.9,
-   "ceiling": 30.1,
-   "last3": 30.3,
-   "implied": 24.2,
-   "injury": null,
    "rank": 8,
-   "pos_rank": 2
-  },
-  {
-   "name": "Jahmyr Gibbs",
-   "pos": "RB",
-   "team": "DET",
-   "opp": "TB",
-   "home": true,
-   "proj": 19.5,
-   "floor": 9.7,
-   "ceiling": 30.0,
-   "last3": 27.5,
-   "implied": 26.0,
-   "injury": null,
-   "rank": 9,
-   "pos_rank": 3
+   "pos_rank": 6
   },
   {
    "name": "James Cook",
@@ -207,10 +192,10 @@
    "floor": 9.1,
    "ceiling": 25.8,
    "last3": 18.8,
-   "implied": 31.0,
+   "implied": 30.5,
    "injury": null,
-   "rank": 10,
-   "pos_rank": 4
+   "rank": 9,
+   "pos_rank": 3
   },
   {
    "name": "Chase Brown",
@@ -218,14 +203,44 @@
    "team": "CIN",
    "opp": "WAS",
    "home": false,
-   "proj": 18.9,
-   "floor": 7.0,
+   "proj": 19.2,
+   "floor": 7.1,
    "ceiling": 26.4,
    "last3": 18.3,
-   "implied": 29.5,
+   "implied": 29.8,
+   "injury": null,
+   "rank": 10,
+   "pos_rank": 4
+  },
+  {
+   "name": "Jahmyr Gibbs",
+   "pos": "RB",
+   "team": "DET",
+   "opp": "TB",
+   "home": true,
+   "proj": 18.8,
+   "floor": 9.7,
+   "ceiling": 29.2,
+   "last3": 27.5,
+   "implied": 25.8,
    "injury": null,
    "rank": 11,
    "pos_rank": 5
+  },
+  {
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "team": "WAS",
+   "opp": "CIN",
+   "home": true,
+   "proj": 18.6,
+   "floor": 9.0,
+   "ceiling": 26.9,
+   "last3": 16.8,
+   "implied": 23.8,
+   "injury": null,
+   "rank": 12,
+   "pos_rank": 7
   },
   {
    "name": "Tony Pollard",
@@ -237,25 +252,10 @@
    "floor": 7.5,
    "ceiling": 25.4,
    "last3": 29.7,
-   "implied": 23.0,
-   "injury": null,
-   "rank": 12,
-   "pos_rank": 6
-  },
-  {
-   "name": "Jayden Daniels",
-   "pos": "QB",
-   "team": "WAS",
-   "opp": "CIN",
-   "home": true,
-   "proj": 18.6,
-   "floor": 9.0,
-   "ceiling": 26.7,
-   "last3": 16.8,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
    "rank": 13,
-   "pos_rank": 7
+   "pos_rank": 6
   },
   {
    "name": "Amon-Ra St. Brown",
@@ -265,9 +265,9 @@
    "home": true,
    "proj": 18.5,
    "floor": 6.7,
-   "ceiling": 29.0,
+   "ceiling": 28.7,
    "last3": 18.3,
-   "implied": 26.0,
+   "implied": 25.8,
    "injury": null,
    "rank": 14,
    "pos_rank": 1
@@ -297,7 +297,7 @@
    "floor": 7.8,
    "ceiling": 27.1,
    "last3": 32.2,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
    "rank": 16,
    "pos_rank": 2
@@ -308,11 +308,11 @@
    "team": "SF",
    "opp": "MIN",
    "home": true,
-   "proj": 18.0,
-   "floor": 9.5,
-   "ceiling": 25.8,
+   "proj": 18.1,
+   "floor": 9.7,
+   "ceiling": 26.2,
    "last3": 23.0,
-   "implied": 24.2,
+   "implied": 25.0,
    "injury": null,
    "rank": 17,
    "pos_rank": 9
@@ -323,11 +323,11 @@
    "team": "DAL",
    "opp": "TEN",
    "home": true,
-   "proj": 18.0,
+   "proj": 17.8,
    "floor": 7.5,
-   "ceiling": 25.7,
+   "ceiling": 25.6,
    "last3": 12.3,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
    "rank": 18,
    "pos_rank": 7
@@ -342,7 +342,7 @@
    "floor": 7.6,
    "ceiling": 26.4,
    "last3": 22.2,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
    "rank": 19,
    "pos_rank": 3
@@ -363,6 +363,21 @@
    "pos_rank": 8
   },
   {
+   "name": "Chuba Hubbard",
+   "pos": "RB",
+   "team": "CAR",
+   "opp": "BAL",
+   "home": true,
+   "proj": 17.6,
+   "floor": 8.1,
+   "ceiling": 25.9,
+   "last3": 24.2,
+   "implied": 23.2,
+   "injury": null,
+   "rank": 21,
+   "pos_rank": 9
+  },
+  {
    "name": "George Pickens",
    "pos": "WR",
    "team": "DAL",
@@ -372,9 +387,9 @@
    "floor": 7.3,
    "ceiling": 25.3,
    "last3": 22.0,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
-   "rank": 21,
+   "rank": 22,
    "pos_rank": 4
   },
   {
@@ -389,23 +404,8 @@
    "last3": 20.4,
    "implied": 25.2,
    "injury": null,
-   "rank": 22,
-   "pos_rank": 10
-  },
-  {
-   "name": "Chuba Hubbard",
-   "pos": "RB",
-   "team": "CAR",
-   "opp": "BAL",
-   "home": true,
-   "proj": 17.2,
-   "floor": 8.1,
-   "ceiling": 25.7,
-   "last3": 24.2,
-   "implied": 23.0,
-   "injury": null,
    "rank": 23,
-   "pos_rank": 9
+   "pos_rank": 10
   },
   {
    "name": "Bucky Irving",
@@ -413,11 +413,11 @@
    "team": "TB",
    "opp": "DET",
    "home": false,
-   "proj": 16.6,
+   "proj": 16.9,
    "floor": 8.1,
-   "ceiling": 24.1,
+   "ceiling": 24.2,
    "last3": 24.5,
-   "implied": 19.5,
+   "implied": 19.8,
    "injury": null,
    "rank": 24,
    "pos_rank": 10
@@ -432,7 +432,7 @@
    "floor": 8.3,
    "ceiling": 22.2,
    "last3": 12.9,
-   "implied": 23.0,
+   "implied": 23.2,
    "injury": null,
    "rank": 25,
    "pos_rank": 11
@@ -447,25 +447,10 @@
    "floor": 7.1,
    "ceiling": 24.4,
    "last3": 18.7,
-   "implied": 21.2,
+   "implied": 21.5,
    "injury": null,
    "rank": 26,
    "pos_rank": 12
-  },
-  {
-   "name": "Justin Herbert",
-   "pos": "QB",
-   "team": "LAC",
-   "opp": "NYJ",
-   "home": true,
-   "proj": 15.8,
-   "floor": 6.3,
-   "ceiling": 22.3,
-   "last3": 11.5,
-   "implied": 22.5,
-   "injury": null,
-   "rank": 27,
-   "pos_rank": 13
   },
   {
    "name": "Jared Goff",
@@ -474,13 +459,13 @@
    "opp": "TB",
    "home": true,
    "proj": 15.6,
-   "floor": 8.4,
-   "ceiling": 21.4,
+   "floor": 8.2,
+   "ceiling": 21.3,
    "last3": 11.6,
-   "implied": 26.0,
+   "implied": 25.8,
    "injury": null,
-   "rank": 28,
-   "pos_rank": 14
+   "rank": 27,
+   "pos_rank": 13
   },
   {
    "name": "Rashee Rice",
@@ -488,14 +473,29 @@
    "team": "KC",
    "opp": "ARI",
    "home": true,
-   "proj": 15.5,
+   "proj": 15.4,
    "floor": 5.8,
-   "ceiling": 23.5,
+   "ceiling": 23.3,
    "last3": 13.8,
-   "implied": 29.0,
+   "implied": 28.5,
+   "injury": null,
+   "rank": 28,
+   "pos_rank": 5
+  },
+  {
+   "name": "Justin Herbert",
+   "pos": "QB",
+   "team": "LAC",
+   "opp": "NYJ",
+   "home": true,
+   "proj": 15.2,
+   "floor": 6.4,
+   "ceiling": 22.5,
+   "last3": 11.5,
+   "implied": 22.2,
    "injury": null,
    "rank": 29,
-   "pos_rank": 5
+   "pos_rank": 14
   },
   {
    "name": "Bhayshul Tuten",
@@ -522,7 +522,7 @@
    "floor": 6.4,
    "ceiling": 20.3,
    "last3": 13.8,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
    "rank": 31,
    "pos_rank": 1
@@ -533,11 +533,11 @@
    "team": "MIN",
    "opp": "SF",
    "home": false,
-   "proj": 14.9,
-   "floor": 7.1,
-   "ceiling": 23.5,
+   "proj": 15.1,
+   "floor": 7.2,
+   "ceiling": 23.6,
    "last3": 17.4,
-   "implied": 21.2,
+   "implied": 21.5,
    "injury": null,
    "rank": 32,
    "pos_rank": 15
@@ -580,12 +580,27 @@
    "home": false,
    "proj": 14.5,
    "floor": 7.1,
-   "ceiling": 22.3,
+   "ceiling": 22.0,
    "last3": 10.6,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
    "rank": 35,
    "pos_rank": 17
+  },
+  {
+   "name": "Cam Ward",
+   "pos": "QB",
+   "team": "TEN",
+   "opp": "DAL",
+   "home": false,
+   "proj": 14.4,
+   "floor": 7.2,
+   "ceiling": 23.4,
+   "last3": 17.0,
+   "implied": 23.5,
+   "injury": null,
+   "rank": 36,
+   "pos_rank": 18
   },
   {
    "name": "Nico Collins",
@@ -599,7 +614,7 @@
    "last3": 14.2,
    "implied": 28.5,
    "injury": null,
-   "rank": 36,
+   "rank": 37,
    "pos_rank": 7
   },
   {
@@ -613,21 +628,6 @@
    "ceiling": 21.1,
    "last3": 14.5,
    "implied": 18.5,
-   "injury": null,
-   "rank": 37,
-   "pos_rank": 18
-  },
-  {
-   "name": "Cam Ward",
-   "pos": "QB",
-   "team": "TEN",
-   "opp": "DAL",
-   "home": false,
-   "proj": 14.3,
-   "floor": 7.2,
-   "ceiling": 23.1,
-   "last3": 17.0,
-   "implied": 23.0,
    "injury": null,
    "rank": 38,
    "pos_rank": 19
@@ -655,9 +655,9 @@
    "home": false,
    "proj": 14.1,
    "floor": 5.2,
-   "ceiling": 22.4,
+   "ceiling": 22.0,
    "last3": 5.6,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
    "rank": 40,
    "pos_rank": 9
@@ -683,11 +683,11 @@
    "team": "MIN",
    "opp": "SF",
    "home": false,
-   "proj": 13.9,
+   "proj": 14.0,
    "floor": 5.5,
-   "ceiling": 21.5,
+   "ceiling": 21.6,
    "last3": 13.2,
-   "implied": 21.2,
+   "implied": 21.5,
    "injury": null,
    "rank": 42,
    "pos_rank": 10
@@ -730,12 +730,27 @@
    "home": true,
    "proj": 13.4,
    "floor": 4.4,
-   "ceiling": 22.0,
+   "ceiling": 21.9,
    "last3": 23.3,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
    "rank": 45,
    "pos_rank": 15
+  },
+  {
+   "name": "Tetairoa McMillan",
+   "pos": "WR",
+   "team": "CAR",
+   "opp": "BAL",
+   "home": true,
+   "proj": 13.4,
+   "floor": 5.0,
+   "ceiling": 20.8,
+   "last3": 11.3,
+   "implied": 23.2,
+   "injury": null,
+   "rank": 46,
+   "pos_rank": 11
   },
   {
    "name": "Tee Higgins",
@@ -747,25 +762,25 @@
    "floor": 5.1,
    "ceiling": 22.3,
    "last3": 23.1,
-   "implied": 29.5,
-   "injury": null,
-   "rank": 46,
-   "pos_rank": 11
-  },
-  {
-   "name": "Tetairoa McMillan",
-   "pos": "WR",
-   "team": "CAR",
-   "opp": "BAL",
-   "home": true,
-   "proj": 13.3,
-   "floor": 5.0,
-   "ceiling": 20.8,
-   "last3": 11.3,
-   "implied": 23.0,
+   "implied": 29.8,
    "injury": null,
    "rank": 47,
    "pos_rank": 12
+  },
+  {
+   "name": "Emeka Egbuka",
+   "pos": "WR",
+   "team": "TB",
+   "opp": "DET",
+   "home": false,
+   "proj": 13.2,
+   "floor": 4.6,
+   "ceiling": 21.6,
+   "last3": 14.0,
+   "implied": 19.8,
+   "injury": null,
+   "rank": 48,
+   "pos_rank": 13
   },
   {
    "name": "Jameson Williams",
@@ -773,29 +788,14 @@
    "team": "DET",
    "opp": "TB",
    "home": true,
-   "proj": 13.3,
+   "proj": 13.1,
    "floor": 3.6,
-   "ceiling": 21.8,
+   "ceiling": 21.5,
    "last3": 10.3,
-   "implied": 26.0,
-   "injury": null,
-   "rank": 48,
-   "pos_rank": 13
-  },
-  {
-   "name": "Lamar Jackson",
-   "pos": "QB",
-   "team": "BAL",
-   "opp": "CAR",
-   "home": false,
-   "proj": 13.2,
-   "floor": 5.0,
-   "ceiling": 20.4,
-   "last3": 13.1,
-   "implied": 20.5,
+   "implied": 25.8,
    "injury": null,
    "rank": 49,
-   "pos_rank": 20
+   "pos_rank": 14
   },
   {
    "name": "Cam Skattebo",
@@ -822,10 +822,25 @@
    "floor": 5.9,
    "ceiling": 20.6,
    "last3": 12.9,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
    "rank": 51,
    "pos_rank": 17
+  },
+  {
+   "name": "Lamar Jackson",
+   "pos": "QB",
+   "team": "BAL",
+   "opp": "CAR",
+   "home": false,
+   "proj": 13.0,
+   "floor": 5.0,
+   "ceiling": 20.0,
+   "last3": 13.1,
+   "implied": 20.2,
+   "injury": null,
+   "rank": 52,
+   "pos_rank": 20
   },
   {
    "name": "Breece Hall",
@@ -837,25 +852,10 @@
    "floor": 6.0,
    "ceiling": 20.1,
    "last3": 11.7,
-   "implied": 19.0,
-   "injury": null,
-   "rank": 52,
-   "pos_rank": 18
-  },
-  {
-   "name": "Emeka Egbuka",
-   "pos": "WR",
-   "team": "TB",
-   "opp": "DET",
-   "home": false,
-   "proj": 12.9,
-   "floor": 4.5,
-   "ceiling": 21.6,
-   "last3": 14.0,
-   "implied": 19.5,
+   "implied": 19.2,
    "injury": null,
    "rank": 53,
-   "pos_rank": 14
+   "pos_rank": 18
   },
   {
    "name": "J.J. McCarthy",
@@ -878,11 +878,11 @@
    "team": "NYJ",
    "opp": "LAC",
    "home": false,
-   "proj": 12.8,
+   "proj": 12.7,
    "floor": 5.4,
    "ceiling": 20.4,
    "last3": 10.4,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
    "rank": 55,
    "pos_rank": 22
@@ -903,6 +903,21 @@
    "pos_rank": 15
   },
   {
+   "name": "Luther Burden III",
+   "pos": "WR",
+   "team": "CHI",
+   "opp": "NO",
+   "home": true,
+   "proj": 12.6,
+   "floor": 5.3,
+   "ceiling": 20.3,
+   "last3": 21.0,
+   "implied": 30.0,
+   "injury": null,
+   "rank": 57,
+   "pos_rank": 16
+  },
+  {
    "name": "Garrett Wilson",
    "pos": "WR",
    "team": "NYJ",
@@ -910,42 +925,12 @@
    "home": false,
    "proj": 12.6,
    "floor": 5.2,
-   "ceiling": 20.5,
+   "ceiling": 20.6,
    "last3": 11.5,
-   "implied": 19.0,
-   "injury": null,
-   "rank": 57,
-   "pos_rank": 16
-  },
-  {
-   "name": "Luther Burden III",
-   "pos": "WR",
-   "team": "CHI",
-   "opp": "NO",
-   "home": true,
-   "proj": 12.6,
-   "floor": 4.9,
-   "ceiling": 20.2,
-   "last3": 21.0,
-   "implied": 30.0,
+   "implied": 19.2,
    "injury": null,
    "rank": 58,
    "pos_rank": 17
-  },
-  {
-   "name": "George Kittle",
-   "pos": "TE",
-   "team": "SF",
-   "opp": "MIN",
-   "home": true,
-   "proj": 12.3,
-   "floor": 5.4,
-   "ceiling": 20.7,
-   "last3": 12.7,
-   "implied": 24.2,
-   "injury": null,
-   "rank": 59,
-   "pos_rank": 2
   },
   {
    "name": "Colston Loveland",
@@ -953,14 +938,14 @@
    "team": "CHI",
    "opp": "NO",
    "home": true,
-   "proj": 12.2,
+   "proj": 12.3,
    "floor": 4.7,
-   "ceiling": 19.8,
+   "ceiling": 19.4,
    "last3": 13.6,
    "implied": 30.0,
    "injury": null,
-   "rank": 60,
-   "pos_rank": 3
+   "rank": 59,
+   "pos_rank": 2
   },
   {
    "name": "DK Metcalf",
@@ -974,7 +959,7 @@
    "last3": 8.1,
    "implied": 21.5,
    "injury": null,
-   "rank": 61,
+   "rank": 60,
    "pos_rank": 18
   },
   {
@@ -985,11 +970,11 @@
    "home": false,
    "proj": 12.2,
    "floor": 3.8,
-   "ceiling": 18.9,
+   "ceiling": 18.8,
    "last3": 8.2,
-   "implied": 19.5,
+   "implied": 19.8,
    "injury": null,
-   "rank": 62,
+   "rank": 61,
    "pos_rank": 23
   },
   {
@@ -1002,25 +987,40 @@
    "floor": 3.8,
    "ceiling": 20.4,
    "last3": 10.2,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 63,
+   "rank": 62,
    "pos_rank": 19
   },
   {
-   "name": "Omar Cooper Jr.",
-   "pos": "WR",
-   "team": "NYJ",
-   "opp": "LAC",
+   "name": "George Kittle",
+   "pos": "TE",
+   "team": "SF",
+   "opp": "MIN",
+   "home": true,
+   "proj": 12.1,
+   "floor": 5.4,
+   "ceiling": 20.9,
+   "last3": 12.7,
+   "implied": 25.0,
+   "injury": null,
+   "rank": 63,
+   "pos_rank": 3
+  },
+  {
+   "name": "Tyler Huntley",
+   "pos": "QB",
+   "team": "BAL",
+   "opp": "CAR",
    "home": false,
-   "proj": 12.0,
-   "floor": 4.8,
-   "ceiling": 19.0,
-   "last3": 19.5,
-   "implied": 19.0,
+   "proj": 12.1,
+   "floor": 4.0,
+   "ceiling": 19.2,
+   "last3": 8.8,
+   "implied": 20.2,
    "injury": null,
    "rank": 64,
-   "pos_rank": 20
+   "pos_rank": 24
   },
   {
    "name": "Stefon Diggs",
@@ -1032,10 +1032,25 @@
    "floor": 5.1,
    "ceiling": 19.5,
    "last3": 13.7,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
    "rank": 65,
-   "pos_rank": 21
+   "pos_rank": 20
+  },
+  {
+   "name": "Carson Wentz",
+   "pos": "QB",
+   "team": "MIN",
+   "opp": "SF",
+   "home": false,
+   "proj": 12.0,
+   "floor": 4.6,
+   "ceiling": 20.0,
+   "last3": 7.6,
+   "implied": 21.5,
+   "injury": null,
+   "rank": 66,
+   "pos_rank": 25
   },
   {
    "name": "Jameis Winston",
@@ -1049,23 +1064,23 @@
    "last3": 4.8,
    "implied": 20.2,
    "injury": null,
-   "rank": 66,
-   "pos_rank": 24
+   "rank": 67,
+   "pos_rank": 26
   },
   {
-   "name": "Tyler Huntley",
-   "pos": "QB",
-   "team": "BAL",
-   "opp": "CAR",
+   "name": "Omar Cooper Jr.",
+   "pos": "WR",
+   "team": "NYJ",
+   "opp": "LAC",
    "home": false,
    "proj": 11.9,
-   "floor": 4.0,
-   "ceiling": 19.7,
-   "last3": 8.8,
-   "implied": 20.5,
+   "floor": 4.8,
+   "ceiling": 19.0,
+   "last3": 19.5,
+   "implied": 19.2,
    "injury": null,
-   "rank": 67,
-   "pos_rank": 25
+   "rank": 68,
+   "pos_rank": 21
   },
   {
    "name": "Tanner McKee",
@@ -1079,8 +1094,8 @@
    "last3": 10.0,
    "implied": 17.0,
    "injury": null,
-   "rank": 68,
-   "pos_rank": 26
+   "rank": 69,
+   "pos_rank": 27
   },
   {
    "name": "Baker Mayfield",
@@ -1090,12 +1105,12 @@
    "home": false,
    "proj": 11.8,
    "floor": 3.3,
-   "ceiling": 19.0,
+   "ceiling": 19.1,
    "last3": 5.3,
-   "implied": 19.5,
+   "implied": 19.8,
    "injury": null,
-   "rank": 69,
-   "pos_rank": 27
+   "rank": 70,
+   "pos_rank": 28
   },
   {
    "name": "Isaiah Likely",
@@ -1109,7 +1124,7 @@
    "last3": 15.7,
    "implied": 20.2,
    "injury": null,
-   "rank": 70,
+   "rank": 71,
    "pos_rank": 4
   },
   {
@@ -1124,21 +1139,6 @@
    "last3": 7.3,
    "implied": 16.0,
    "injury": null,
-   "rank": 71,
-   "pos_rank": 28
-  },
-  {
-   "name": "Carson Wentz",
-   "pos": "QB",
-   "team": "MIN",
-   "opp": "SF",
-   "home": false,
-   "proj": 11.7,
-   "floor": 4.6,
-   "ceiling": 19.8,
-   "last3": 7.6,
-   "implied": 21.2,
-   "injury": null,
    "rank": 72,
    "pos_rank": 29
   },
@@ -1150,9 +1150,9 @@
    "home": true,
    "proj": 11.7,
    "floor": 4.4,
-   "ceiling": 19.4,
+   "ceiling": 19.3,
    "last3": 9.4,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
    "rank": 73,
    "pos_rank": 19
@@ -1163,8 +1163,8 @@
    "team": "CHI",
    "opp": "NO",
    "home": true,
-   "proj": 11.2,
-   "floor": 3.6,
+   "proj": 11.1,
+   "floor": 3.4,
    "ceiling": 18.9,
    "last3": 13.2,
    "implied": 30.0,
@@ -1182,25 +1182,10 @@
    "floor": 3.9,
    "ceiling": 19.0,
    "last3": 14.2,
-   "implied": 31.0,
+   "implied": 30.5,
    "injury": null,
    "rank": 75,
    "pos_rank": 23
-  },
-  {
-   "name": "Woody Marks",
-   "pos": "RB",
-   "team": "HOU",
-   "opp": "IND",
-   "home": true,
-   "proj": 11.1,
-   "floor": 3.5,
-   "ceiling": 18.6,
-   "last3": 8.3,
-   "implied": 28.5,
-   "injury": null,
-   "rank": 76,
-   "pos_rank": 20
   },
   {
    "name": "Brock Bowers",
@@ -1214,7 +1199,7 @@
    "last3": 18.1,
    "implied": 15.2,
    "injury": null,
-   "rank": 77,
+   "rank": 76,
    "pos_rank": 5
   },
   {
@@ -1229,23 +1214,23 @@
    "last3": 12.0,
    "implied": 18.5,
    "injury": null,
-   "rank": 78,
+   "rank": 77,
    "pos_rank": 24
   },
   {
-   "name": "Keenan Allen",
-   "pos": "WR",
-   "team": "SF",
-   "opp": "MIN",
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "team": "DET",
+   "opp": "TB",
    "home": true,
    "proj": 10.9,
-   "floor": 3.9,
-   "ceiling": 17.6,
-   "last3": 10.5,
-   "implied": 24.2,
+   "floor": 3.6,
+   "ceiling": 16.0,
+   "last3": 5.4,
+   "implied": 25.8,
    "injury": null,
-   "rank": 79,
-   "pos_rank": 25
+   "rank": 78,
+   "pos_rank": 6
   },
   {
    "name": "Travis Kelce",
@@ -1257,10 +1242,25 @@
    "floor": 3.7,
    "ceiling": 17.7,
    "last3": 11.3,
-   "implied": 29.0,
+   "implied": 28.5,
+   "injury": null,
+   "rank": 79,
+   "pos_rank": 7
+  },
+  {
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "team": "SF",
+   "opp": "MIN",
+   "home": true,
+   "proj": 10.9,
+   "floor": 3.9,
+   "ceiling": 17.7,
+   "last3": 10.5,
+   "implied": 25.0,
    "injury": null,
    "rank": 80,
-   "pos_rank": 6
+   "pos_rank": 25
   },
   {
    "name": "RJ Harvey",
@@ -1275,7 +1275,7 @@
    "implied": 25.2,
    "injury": null,
    "rank": 81,
-   "pos_rank": 21
+   "pos_rank": 20
   },
   {
    "name": "Braelon Allen",
@@ -1287,10 +1287,10 @@
    "floor": 3.9,
    "ceiling": 17.8,
    "last3": 11.4,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
    "rank": 82,
-   "pos_rank": 22
+   "pos_rank": 21
   },
   {
    "name": "Caleb Douglas",
@@ -1302,25 +1302,10 @@
    "floor": 3.4,
    "ceiling": 17.8,
    "last3": 10.5,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
    "rank": 83,
    "pos_rank": 26
-  },
-  {
-   "name": "Ollie Gordon II",
-   "pos": "RB",
-   "team": "MIA",
-   "opp": "BUF",
-   "home": false,
-   "proj": 10.8,
-   "floor": 4.5,
-   "ceiling": 17.4,
-   "last3": 9.9,
-   "implied": 14.5,
-   "injury": null,
-   "rank": 84,
-   "pos_rank": 23
   },
   {
    "name": "Fernando Mendoza",
@@ -1334,23 +1319,23 @@
    "last3": 8.1,
    "implied": 15.2,
    "injury": null,
-   "rank": 85,
+   "rank": 84,
    "pos_rank": 30
   },
   {
-   "name": "Dalton Kincaid",
-   "pos": "TE",
-   "team": "BUF",
-   "opp": "MIA",
-   "home": true,
+   "name": "Ollie Gordon II",
+   "pos": "RB",
+   "team": "MIA",
+   "opp": "BUF",
+   "home": false,
    "proj": 10.7,
-   "floor": 3.4,
-   "ceiling": 16.6,
-   "last3": 10.7,
-   "implied": 31.0,
+   "floor": 4.5,
+   "ceiling": 17.5,
+   "last3": 9.9,
+   "implied": 14.0,
    "injury": null,
-   "rank": 86,
-   "pos_rank": 7
+   "rank": 85,
+   "pos_rank": 22
   },
   {
    "name": "Ashton Jeanty",
@@ -1364,23 +1349,8 @@
    "last3": 9.2,
    "implied": 15.2,
    "injury": null,
-   "rank": 87,
-   "pos_rank": 24
-  },
-  {
-   "name": "Sam LaPorta",
-   "pos": "TE",
-   "team": "DET",
-   "opp": "TB",
-   "home": true,
-   "proj": 10.7,
-   "floor": 3.6,
-   "ceiling": 15.8,
-   "last3": 5.4,
-   "implied": 26.0,
-   "injury": null,
-   "rank": 88,
-   "pos_rank": 8
+   "rank": 86,
+   "pos_rank": 23
   },
   {
    "name": "Adonai Mitchell",
@@ -1390,11 +1360,11 @@
    "home": false,
    "proj": 10.7,
    "floor": 3.5,
-   "ceiling": 17.8,
+   "ceiling": 17.7,
    "last3": 12.0,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
-   "rank": 89,
+   "rank": 87,
    "pos_rank": 27
   },
   {
@@ -1407,25 +1377,25 @@
    "floor": 4.9,
    "ceiling": 18.7,
    "last3": 16.5,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 90,
+   "rank": 88,
    "pos_rank": 28
   },
   {
-   "name": "Cade Klubnik",
-   "pos": "QB",
-   "team": "NYJ",
-   "opp": "LAC",
-   "home": false,
+   "name": "Deebo Samuel Sr.",
+   "pos": "WR",
+   "team": "SF",
+   "opp": "MIN",
+   "home": true,
    "proj": 10.5,
-   "floor": 3.1,
-   "ceiling": 17.5,
-   "last3": 6.1,
-   "implied": 19.0,
+   "floor": 3.0,
+   "ceiling": 17.4,
+   "last3": 15.5,
+   "implied": 25.0,
    "injury": null,
-   "rank": 91,
-   "pos_rank": 31
+   "rank": 89,
+   "pos_rank": 29
   },
   {
    "name": "Dalton Schultz",
@@ -1439,23 +1409,23 @@
    "last3": 7.9,
    "implied": 28.5,
    "injury": null,
-   "rank": 92,
-   "pos_rank": 9
+   "rank": 90,
+   "pos_rank": 8
   },
   {
-   "name": "Deebo Samuel Sr.",
-   "pos": "WR",
-   "team": "SF",
-   "opp": "MIN",
+   "name": "Dalton Kincaid",
+   "pos": "TE",
+   "team": "BUF",
+   "opp": "MIA",
    "home": true,
    "proj": 10.4,
-   "floor": 3.0,
-   "ceiling": 17.4,
-   "last3": 15.5,
-   "implied": 24.2,
+   "floor": 3.4,
+   "ceiling": 16.5,
+   "last3": 10.7,
+   "implied": 30.5,
    "injury": null,
-   "rank": 93,
-   "pos_rank": 29
+   "rank": 91,
+   "pos_rank": 9
   },
   {
    "name": "Travis Etienne",
@@ -1469,8 +1439,8 @@
    "last3": 7.5,
    "implied": 18.5,
    "injury": null,
-   "rank": 94,
-   "pos_rank": 25
+   "rank": 92,
+   "pos_rank": 24
   },
   {
    "name": "Malik Willis",
@@ -1479,13 +1449,13 @@
    "opp": "BUF",
    "home": false,
    "proj": 10.3,
-   "floor": 3.5,
+   "floor": 3.6,
    "ceiling": 20.1,
    "last3": 14.8,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
-   "rank": 95,
-   "pos_rank": 32
+   "rank": 93,
+   "pos_rank": 31
   },
   {
    "name": "Wan'Dale Robinson",
@@ -1493,13 +1463,13 @@
    "team": "TEN",
    "opp": "DAL",
    "home": false,
-   "proj": 10.2,
+   "proj": 10.3,
    "floor": 3.4,
    "ceiling": 17.3,
    "last3": 8.1,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 96,
+   "rank": 94,
    "pos_rank": 30
   },
   {
@@ -1514,8 +1484,23 @@
    "last3": 11.9,
    "implied": 17.0,
    "injury": null,
-   "rank": 97,
-   "pos_rank": 26
+   "rank": 95,
+   "pos_rank": 25
+  },
+  {
+   "name": "Cade Klubnik",
+   "pos": "QB",
+   "team": "NYJ",
+   "opp": "LAC",
+   "home": false,
+   "proj": 10.2,
+   "floor": 3.1,
+   "ceiling": 17.5,
+   "last3": 6.1,
+   "implied": 19.2,
+   "injury": null,
+   "rank": 96,
+   "pos_rank": 32
   },
   {
    "name": "Rico Dowdle",
@@ -1529,8 +1514,8 @@
    "last3": 10.5,
    "implied": 21.5,
    "injury": null,
-   "rank": 98,
-   "pos_rank": 27
+   "rank": 97,
+   "pos_rank": 26
   },
   {
    "name": "Joe Milton III",
@@ -1544,7 +1529,7 @@
    "last3": 5.8,
    "implied": 17.0,
    "injury": null,
-   "rank": 99,
+   "rank": 98,
    "pos_rank": 33
   },
   {
@@ -1559,7 +1544,7 @@
    "last3": 10.8,
    "implied": 25.2,
    "injury": null,
-   "rank": 100,
+   "rank": 99,
    "pos_rank": 31
   },
   {
@@ -1574,7 +1559,7 @@
    "last3": 14.5,
    "implied": 17.0,
    "injury": null,
-   "rank": 101,
+   "rank": 100,
    "pos_rank": 32
   },
   {
@@ -1589,7 +1574,7 @@
    "last3": 10.4,
    "implied": 28.5,
    "injury": null,
-   "rank": 102,
+   "rank": 101,
    "pos_rank": 33
   },
   {
@@ -1602,9 +1587,9 @@
    "floor": 2.8,
    "ceiling": 17.5,
    "last3": 9.3,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 103,
+   "rank": 102,
    "pos_rank": 34
   },
   {
@@ -1619,7 +1604,7 @@
    "last3": 9.0,
    "implied": 25.2,
    "injury": null,
-   "rank": 104,
+   "rank": 103,
    "pos_rank": 34
   },
   {
@@ -1634,7 +1619,7 @@
    "last3": 5.5,
    "implied": 16.0,
    "injury": null,
-   "rank": 105,
+   "rank": 104,
    "pos_rank": 10
   },
   {
@@ -1649,7 +1634,7 @@
    "last3": 4.9,
    "implied": 21.5,
    "injury": null,
-   "rank": 106,
+   "rank": 105,
    "pos_rank": 35
   },
   {
@@ -1662,9 +1647,9 @@
    "floor": 2.4,
    "ceiling": 16.0,
    "last3": 9.6,
-   "implied": 31.0,
+   "implied": 30.5,
    "injury": null,
-   "rank": 107,
+   "rank": 106,
    "pos_rank": 36
   },
   {
@@ -1679,7 +1664,7 @@
    "last3": 13.2,
    "implied": 28.5,
    "injury": null,
-   "rank": 108,
+   "rank": 107,
    "pos_rank": 37
   },
   {
@@ -1692,10 +1677,10 @@
    "floor": 2.2,
    "ceiling": 15.1,
    "last3": 11.5,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
-   "rank": 109,
-   "pos_rank": 28
+   "rank": 108,
+   "pos_rank": 27
   },
   {
    "name": "Kyle McCord",
@@ -1707,9 +1692,9 @@
    "floor": 3.4,
    "ceiling": 18.7,
    "last3": 12.8,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
-   "rank": 110,
+   "rank": 109,
    "pos_rank": 35
   },
   {
@@ -1724,8 +1709,23 @@
    "last3": 7.1,
    "implied": 26.2,
    "injury": null,
-   "rank": 111,
+   "rank": 110,
    "pos_rank": 38
+  },
+  {
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "team": "MIN",
+   "opp": "SF",
+   "home": false,
+   "proj": 9.2,
+   "floor": 2.6,
+   "ceiling": 17.6,
+   "last3": 6.9,
+   "implied": 21.5,
+   "injury": null,
+   "rank": 111,
+   "pos_rank": 39
   },
   {
    "name": "Jalen Coker",
@@ -1737,25 +1737,25 @@
    "floor": 2.4,
    "ceiling": 16.2,
    "last3": 6.2,
-   "implied": 23.0,
+   "implied": 23.2,
    "injury": null,
    "rank": 112,
-   "pos_rank": 39
+   "pos_rank": 40
   },
   {
-   "name": "Jordan Addison",
-   "pos": "WR",
-   "team": "MIN",
-   "opp": "SF",
-   "home": false,
+   "name": "Chig Okonkwo",
+   "pos": "TE",
+   "team": "WAS",
+   "opp": "CIN",
+   "home": true,
    "proj": 9.1,
-   "floor": 2.6,
-   "ceiling": 17.4,
-   "last3": 6.9,
-   "implied": 21.2,
+   "floor": 2.7,
+   "ceiling": 15.1,
+   "last3": 7.1,
+   "implied": 23.8,
    "injury": null,
    "rank": 113,
-   "pos_rank": 40
+   "pos_rank": 11
   },
   {
    "name": "Ryan Flournoy",
@@ -1767,7 +1767,7 @@
    "floor": 2.7,
    "ceiling": 16.9,
    "last3": 13.2,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
    "rank": 114,
    "pos_rank": 41
@@ -1788,21 +1788,6 @@
    "pos_rank": 42
   },
   {
-   "name": "Chig Okonkwo",
-   "pos": "TE",
-   "team": "WAS",
-   "opp": "CIN",
-   "home": true,
-   "proj": 9.0,
-   "floor": 2.6,
-   "ceiling": 15.1,
-   "last3": 7.1,
-   "implied": 23.0,
-   "injury": null,
-   "rank": 116,
-   "pos_rank": 11
-  },
-  {
    "name": "Kendre Miller",
    "pos": "RB",
    "team": "NO",
@@ -1814,8 +1799,8 @@
    "last3": 7.9,
    "implied": 18.5,
    "injury": null,
-   "rank": 117,
-   "pos_rank": 29
+   "rank": 116,
+   "pos_rank": 28
   },
   {
    "name": "Pat Freiermuth",
@@ -1829,7 +1814,7 @@
    "last3": 9.0,
    "implied": 21.5,
    "injury": null,
-   "rank": 118,
+   "rank": 117,
    "pos_rank": 12
   },
   {
@@ -1840,12 +1825,12 @@
    "home": true,
    "proj": 8.9,
    "floor": 2.6,
-   "ceiling": 16.6,
+   "ceiling": 16.7,
    "last3": 9.7,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 119,
-   "pos_rank": 30
+   "rank": 118,
+   "pos_rank": 29
   },
   {
    "name": "Audric Estime",
@@ -1859,8 +1844,8 @@
    "last3": 8.2,
    "implied": 18.5,
    "injury": null,
-   "rank": 120,
-   "pos_rank": 31
+   "rank": 119,
+   "pos_rank": 30
   },
   {
    "name": "Josh Downs",
@@ -1872,9 +1857,9 @@
    "floor": 2.6,
    "ceiling": 15.7,
    "last3": 11.0,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
-   "rank": 121,
+   "rank": 120,
    "pos_rank": 43
   },
   {
@@ -1887,10 +1872,25 @@
    "floor": 2.3,
    "ceiling": 14.9,
    "last3": 10.8,
-   "implied": 14.5,
+   "implied": 14.0,
+   "injury": null,
+   "rank": 121,
+   "pos_rank": 44
+  },
+  {
+   "name": "Kenny Gainwell",
+   "pos": "RB",
+   "team": "TB",
+   "opp": "DET",
+   "home": false,
+   "proj": 8.7,
+   "floor": 3.0,
+   "ceiling": 14.9,
+   "last3": 11.1,
+   "implied": 19.8,
    "injury": null,
    "rank": 122,
-   "pos_rank": 44
+   "pos_rank": 31
   },
   {
    "name": "Alvin Kamara",
@@ -1908,21 +1908,6 @@
    "pos_rank": 32
   },
   {
-   "name": "Kenny Gainwell",
-   "pos": "RB",
-   "team": "TB",
-   "opp": "DET",
-   "home": false,
-   "proj": 8.6,
-   "floor": 3.0,
-   "ceiling": 14.9,
-   "last3": 11.1,
-   "implied": 19.5,
-   "injury": null,
-   "rank": 124,
-   "pos_rank": 33
-  },
-  {
    "name": "Brenton Strange",
    "pos": "TE",
    "team": "JAX",
@@ -1934,8 +1919,23 @@
    "last3": 6.9,
    "implied": 26.2,
    "injury": null,
-   "rank": 125,
+   "rank": 124,
    "pos_rank": 13
+  },
+  {
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "team": "MIN",
+   "opp": "SF",
+   "home": false,
+   "proj": 8.5,
+   "floor": 3.0,
+   "ceiling": 14.7,
+   "last3": 12.2,
+   "implied": 21.5,
+   "injury": null,
+   "rank": 125,
+   "pos_rank": 14
   },
   {
    "name": "Dameon Pierce",
@@ -1950,22 +1950,7 @@
    "implied": 17.0,
    "injury": null,
    "rank": 126,
-   "pos_rank": 34
-  },
-  {
-   "name": "T.J. Hockenson",
-   "pos": "TE",
-   "team": "MIN",
-   "opp": "SF",
-   "home": false,
-   "proj": 8.4,
-   "floor": 3.0,
-   "ceiling": 14.5,
-   "last3": 12.2,
-   "implied": 21.2,
-   "injury": null,
-   "rank": 127,
-   "pos_rank": 14
+   "pos_rank": 33
   },
   {
    "name": "Kaelon Black",
@@ -1977,10 +1962,10 @@
    "floor": 1.5,
    "ceiling": 15.8,
    "last3": 10.8,
-   "implied": 24.2,
+   "implied": 25.0,
    "injury": null,
-   "rank": 128,
-   "pos_rank": 35
+   "rank": 127,
+   "pos_rank": 34
   },
   {
    "name": "Dallas Goedert",
@@ -1994,7 +1979,7 @@
    "last3": 9.0,
    "implied": 17.0,
    "injury": null,
-   "rank": 129,
+   "rank": 128,
    "pos_rank": 15
   },
   {
@@ -2007,10 +1992,10 @@
    "floor": 2.9,
    "ceiling": 17.5,
    "last3": 14.7,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 130,
-   "pos_rank": 36
+   "rank": 129,
+   "pos_rank": 35
   },
   {
    "name": "Antonio Williams",
@@ -2022,9 +2007,9 @@
    "floor": 1.8,
    "ceiling": 15.1,
    "last3": 9.4,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 131,
+   "rank": 130,
    "pos_rank": 45
   },
   {
@@ -2039,7 +2024,7 @@
    "last3": 6.3,
    "implied": 15.2,
    "injury": null,
-   "rank": 132,
+   "rank": 131,
    "pos_rank": 16
   },
   {
@@ -2054,8 +2039,23 @@
    "last3": 7.8,
    "implied": 18.5,
    "injury": null,
-   "rank": 133,
+   "rank": 132,
    "pos_rank": 46
+  },
+  {
+   "name": "DJ Uiagalelei",
+   "pos": "QB",
+   "team": "LAC",
+   "opp": "NYJ",
+   "home": true,
+   "proj": 8.1,
+   "floor": 0.3,
+   "ceiling": 16.9,
+   "last3": 5.0,
+   "implied": 22.2,
+   "injury": null,
+   "rank": 133,
+   "pos_rank": 36
   },
   {
    "name": "Devin Singletary",
@@ -2070,21 +2070,6 @@
    "implied": 20.2,
    "injury": null,
    "rank": 134,
-   "pos_rank": 37
-  },
-  {
-   "name": "DJ Uiagalelei",
-   "pos": "QB",
-   "team": "LAC",
-   "opp": "NYJ",
-   "home": true,
-   "proj": 8.0,
-   "floor": 0.2,
-   "ceiling": 16.8,
-   "last3": 5.0,
-   "implied": 22.5,
-   "injury": null,
-   "rank": 135,
    "pos_rank": 36
   },
   {
@@ -2097,9 +2082,9 @@
    "floor": 1.8,
    "ceiling": 12.8,
    "last3": 2.6,
-   "implied": 19.5,
+   "implied": 19.8,
    "injury": null,
-   "rank": 136,
+   "rank": 135,
    "pos_rank": 17
   },
   {
@@ -2114,7 +2099,7 @@
    "last3": 12.5,
    "implied": 28.5,
    "injury": null,
-   "rank": 137,
+   "rank": 136,
    "pos_rank": 47
   },
   {
@@ -2129,7 +2114,7 @@
    "last3": 9.5,
    "implied": 20.2,
    "injury": null,
-   "rank": 138,
+   "rank": 137,
    "pos_rank": 48
   },
   {
@@ -2138,29 +2123,14 @@
    "team": "CAR",
    "opp": "BAL",
    "home": true,
-   "proj": 7.8,
-   "floor": 2.5,
+   "proj": 7.7,
+   "floor": 2.6,
    "ceiling": 14.1,
    "last3": 9.8,
-   "implied": 23.0,
+   "implied": 23.2,
    "injury": null,
-   "rank": 139,
+   "rank": 138,
    "pos_rank": 18
-  },
-  {
-   "name": "Tre Harris",
-   "pos": "WR",
-   "team": "LAC",
-   "opp": "NYJ",
-   "home": true,
-   "proj": 7.7,
-   "floor": 1.8,
-   "ceiling": 14.0,
-   "last3": 7.8,
-   "implied": 22.5,
-   "injury": null,
-   "rank": 140,
-   "pos_rank": 49
   },
   {
    "name": "Keon Coleman",
@@ -2172,7 +2142,37 @@
    "floor": 1.5,
    "ceiling": 14.8,
    "last3": 2.7,
-   "implied": 31.0,
+   "implied": 30.5,
+   "injury": null,
+   "rank": 139,
+   "pos_rank": 49
+  },
+  {
+   "name": "Mark Andrews",
+   "pos": "TE",
+   "team": "BAL",
+   "opp": "CAR",
+   "home": false,
+   "proj": 7.7,
+   "floor": 1.9,
+   "ceiling": 13.4,
+   "last3": 8.2,
+   "implied": 20.2,
+   "injury": null,
+   "rank": 140,
+   "pos_rank": 19
+  },
+  {
+   "name": "Tre Harris",
+   "pos": "WR",
+   "team": "LAC",
+   "opp": "NYJ",
+   "home": true,
+   "proj": 7.6,
+   "floor": 1.8,
+   "ceiling": 14.0,
+   "last3": 7.8,
+   "implied": 22.2,
    "injury": null,
    "rank": 141,
    "pos_rank": 50
@@ -2187,10 +2187,10 @@
    "floor": 2.1,
    "ceiling": 14.2,
    "last3": 3.7,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
    "rank": 142,
-   "pos_rank": 38
+   "pos_rank": 37
   },
   {
    "name": "Xavier Worthy",
@@ -2202,25 +2202,25 @@
    "floor": 1.8,
    "ceiling": 14.7,
    "last3": 5.0,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
    "rank": 143,
    "pos_rank": 51
   },
   {
-   "name": "Mark Andrews",
-   "pos": "TE",
-   "team": "BAL",
-   "opp": "CAR",
+   "name": "Samaje Perine",
+   "pos": "RB",
+   "team": "CIN",
+   "opp": "WAS",
    "home": false,
-   "proj": 7.5,
-   "floor": 1.9,
-   "ceiling": 13.3,
-   "last3": 8.2,
-   "implied": 20.5,
+   "proj": 7.6,
+   "floor": 1.4,
+   "ceiling": 14.0,
+   "last3": 7.0,
+   "implied": 29.8,
    "injury": null,
    "rank": 144,
-   "pos_rank": 19
+   "pos_rank": 38
   },
   {
    "name": "Mason Taylor",
@@ -2228,11 +2228,11 @@
    "team": "NYJ",
    "opp": "LAC",
    "home": false,
-   "proj": 7.5,
+   "proj": 7.6,
    "floor": 1.6,
    "ceiling": 13.3,
    "last3": 4.3,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
    "rank": 145,
    "pos_rank": 20
@@ -2245,9 +2245,9 @@
    "home": true,
    "proj": 7.5,
    "floor": 1.1,
-   "ceiling": 13.4,
+   "ceiling": 13.6,
    "last3": 11.4,
-   "implied": 24.2,
+   "implied": 25.0,
    "injury": null,
    "rank": 146,
    "pos_rank": 52
@@ -2262,7 +2262,7 @@
    "floor": 1.7,
    "ceiling": 11.4,
    "last3": 3.9,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
    "rank": 147,
    "pos_rank": 21
@@ -2274,10 +2274,10 @@
    "opp": "DAL",
    "home": false,
    "proj": 7.4,
-   "floor": 1.3,
+   "floor": 1.4,
    "ceiling": 13.6,
    "last3": 8.9,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
    "rank": 148,
    "pos_rank": 53
@@ -2292,25 +2292,10 @@
    "floor": 1.7,
    "ceiling": 12.0,
    "last3": 4.3,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
    "rank": 149,
    "pos_rank": 39
-  },
-  {
-   "name": "Samaje Perine",
-   "pos": "RB",
-   "team": "CIN",
-   "opp": "WAS",
-   "home": false,
-   "proj": 7.4,
-   "floor": 1.3,
-   "ceiling": 14.0,
-   "last3": 7.0,
-   "implied": 29.5,
-   "injury": null,
-   "rank": 150,
-   "pos_rank": 40
   },
   {
    "name": "Ladd McConkey",
@@ -2322,9 +2307,9 @@
    "floor": 1.4,
    "ceiling": 12.7,
    "last3": 5.1,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 151,
+   "rank": 150,
    "pos_rank": 54
   },
   {
@@ -2337,9 +2322,9 @@
    "floor": 1.4,
    "ceiling": 14.2,
    "last3": 8.8,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 152,
+   "rank": 151,
    "pos_rank": 55
   },
   {
@@ -2352,9 +2337,9 @@
    "floor": 2.2,
    "ceiling": 13.5,
    "last3": 3.8,
-   "implied": 19.5,
+   "implied": 19.8,
    "injury": null,
-   "rank": 153,
+   "rank": 152,
    "pos_rank": 56
   },
   {
@@ -2369,7 +2354,7 @@
    "last3": 12.6,
    "implied": 25.2,
    "injury": null,
-   "rank": 154,
+   "rank": 153,
    "pos_rank": 57
   },
   {
@@ -2382,10 +2367,10 @@
    "floor": 1.8,
    "ceiling": 13.6,
    "last3": 4.7,
-   "implied": 21.2,
+   "implied": 21.5,
    "injury": null,
-   "rank": 155,
-   "pos_rank": 41
+   "rank": 154,
+   "pos_rank": 40
   },
   {
    "name": "Gunnar Helm",
@@ -2394,12 +2379,12 @@
    "opp": "DAL",
    "home": false,
    "proj": 7.1,
-   "floor": 1.2,
+   "floor": 1.3,
    "ceiling": 11.7,
    "last3": 8.8,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 156,
+   "rank": 155,
    "pos_rank": 22
   },
   {
@@ -2410,11 +2395,11 @@
    "home": true,
    "proj": 7.1,
    "floor": 1.6,
-   "ceiling": 12.2,
+   "ceiling": 12.3,
    "last3": 4.3,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 157,
+   "rank": 156,
    "pos_rank": 23
   },
   {
@@ -2427,10 +2412,10 @@
    "floor": 2.2,
    "ceiling": 13.4,
    "last3": 7.2,
-   "implied": 21.2,
+   "implied": 21.5,
    "injury": null,
-   "rank": 158,
-   "pos_rank": 42
+   "rank": 157,
+   "pos_rank": 41
   },
   {
    "name": "Austin Ekeler",
@@ -2442,10 +2427,10 @@
    "floor": 1.1,
    "ceiling": 13.1,
    "last3": 6.7,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 159,
-   "pos_rank": 43
+   "rank": 158,
+   "pos_rank": 42
   },
   {
    "name": "J.K. Dobbins",
@@ -2459,23 +2444,8 @@
    "last3": 4.3,
    "implied": 25.2,
    "injury": null,
-   "rank": 160,
-   "pos_rank": 44
-  },
-  {
-   "name": "Marvin Harrison Jr.",
-   "pos": "WR",
-   "team": "HOU",
-   "opp": "IND",
-   "home": true,
-   "proj": 6.9,
-   "floor": 0.8,
-   "ceiling": 13.0,
-   "last3": 6.0,
-   "implied": 28.5,
-   "injury": null,
-   "rank": 161,
-   "pos_rank": 58
+   "rank": 159,
+   "pos_rank": 43
   },
   {
    "name": "Demarcus Robinson",
@@ -2487,10 +2457,10 @@
    "floor": 1.1,
    "ceiling": 12.7,
    "last3": 8.2,
-   "implied": 24.2,
+   "implied": 25.0,
    "injury": null,
-   "rank": 162,
-   "pos_rank": 59
+   "rank": 160,
+   "pos_rank": 58
   },
   {
    "name": "Anthony Richardson",
@@ -2504,7 +2474,7 @@
    "last3": 1.0,
    "implied": 16.0,
    "injury": null,
-   "rank": 163,
+   "rank": 161,
    "pos_rank": 37
   },
   {
@@ -2517,10 +2487,10 @@
    "floor": 1.4,
    "ceiling": 12.6,
    "last3": 7.5,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 164,
-   "pos_rank": 60
+   "rank": 162,
+   "pos_rank": 59
   },
   {
    "name": "Tommy Tremble",
@@ -2528,13 +2498,13 @@
    "team": "CAR",
    "opp": "BAL",
    "home": true,
-   "proj": 6.8,
+   "proj": 6.9,
    "floor": 1.7,
    "ceiling": 12.2,
    "last3": 8.0,
-   "implied": 23.0,
+   "implied": 23.2,
    "injury": null,
-   "rank": 165,
+   "rank": 163,
    "pos_rank": 24
   },
   {
@@ -2549,8 +2519,8 @@
    "last3": 6.6,
    "implied": 17.0,
    "injury": null,
-   "rank": 166,
-   "pos_rank": 45
+   "rank": 164,
+   "pos_rank": 44
   },
   {
    "name": "Keaton Mitchell",
@@ -2560,12 +2530,12 @@
    "home": true,
    "proj": 6.7,
    "floor": 1.2,
-   "ceiling": 11.6,
+   "ceiling": 11.7,
    "last3": 4.5,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 167,
-   "pos_rank": 46
+   "rank": 165,
+   "pos_rank": 45
   },
   {
    "name": "Van Jefferson",
@@ -2577,10 +2547,10 @@
    "floor": 0.9,
    "ceiling": 13.1,
    "last3": 8.1,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 168,
-   "pos_rank": 61
+   "rank": 166,
+   "pos_rank": 60
   },
   {
    "name": "Darnell Washington",
@@ -2594,7 +2564,7 @@
    "last3": 7.1,
    "implied": 21.5,
    "injury": null,
-   "rank": 169,
+   "rank": 167,
    "pos_rank": 25
   },
   {
@@ -2609,8 +2579,8 @@
    "last3": 9.3,
    "implied": 16.0,
    "injury": null,
-   "rank": 170,
-   "pos_rank": 47
+   "rank": 168,
+   "pos_rank": 46
   },
   {
    "name": "Evan Engram",
@@ -2624,7 +2594,7 @@
    "last3": 2.8,
    "implied": 25.2,
    "injury": null,
-   "rank": 171,
+   "rank": 169,
    "pos_rank": 26
   },
   {
@@ -2639,8 +2609,8 @@
    "last3": 10.7,
    "implied": 28.5,
    "injury": null,
-   "rank": 172,
-   "pos_rank": 62
+   "rank": 170,
+   "pos_rank": 61
   },
   {
    "name": "Mike Gesicki",
@@ -2652,9 +2622,9 @@
    "floor": 1.0,
    "ceiling": 12.3,
    "last3": 7.5,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
-   "rank": 173,
+   "rank": 171,
    "pos_rank": 27
   },
   {
@@ -2667,10 +2637,25 @@
    "floor": 0.9,
    "ceiling": 13.2,
    "last3": 5.2,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 174,
-   "pos_rank": 48
+   "rank": 172,
+   "pos_rank": 47
+  },
+  {
+   "name": "Jake Ferguson",
+   "pos": "TE",
+   "team": "DAL",
+   "opp": "TEN",
+   "home": true,
+   "proj": 6.4,
+   "floor": 1.8,
+   "ceiling": 11.0,
+   "last3": 4.5,
+   "implied": 32.0,
+   "injury": null,
+   "rank": 173,
+   "pos_rank": 28
   },
   {
    "name": "Kalif Raymond",
@@ -2680,27 +2665,12 @@
    "home": true,
    "proj": 6.4,
    "floor": 0.9,
-   "ceiling": 12.1,
+   "ceiling": 12.0,
    "last3": 4.8,
    "implied": 30.0,
    "injury": null,
-   "rank": 175,
-   "pos_rank": 63
-  },
-  {
-   "name": "Jake Ferguson",
-   "pos": "TE",
-   "team": "DAL",
-   "opp": "TEN",
-   "home": true,
-   "proj": 6.3,
-   "floor": 1.8,
-   "ceiling": 10.6,
-   "last3": 4.5,
-   "implied": 31.5,
-   "injury": null,
-   "rank": 176,
-   "pos_rank": 28
+   "rank": 174,
+   "pos_rank": 62
   },
   {
    "name": "Juwan Johnson",
@@ -2714,7 +2684,7 @@
    "last3": 6.0,
    "implied": 18.5,
    "injury": null,
-   "rank": 177,
+   "rank": 175,
    "pos_rank": 29
   },
   {
@@ -2727,10 +2697,10 @@
    "floor": 1.5,
    "ceiling": 12.2,
    "last3": 5.8,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 178,
-   "pos_rank": 64
+   "rank": 176,
+   "pos_rank": 63
   },
   {
    "name": "Chris Rodriguez Jr.",
@@ -2744,8 +2714,8 @@
    "last3": 8.2,
    "implied": 26.2,
    "injury": null,
-   "rank": 179,
-   "pos_rank": 49
+   "rank": 177,
+   "pos_rank": 48
   },
   {
    "name": "Tyler Goodson",
@@ -2753,14 +2723,14 @@
    "team": "DAL",
    "opp": "TEN",
    "home": true,
-   "proj": 6.1,
+   "proj": 6.2,
    "floor": 0.7,
-   "ceiling": 11.5,
+   "ceiling": 11.4,
    "last3": 5.6,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
-   "rank": 180,
-   "pos_rank": 50
+   "rank": 178,
+   "pos_rank": 49
   },
   {
    "name": "Mike Washington Jr.",
@@ -2774,8 +2744,8 @@
    "last3": 3.9,
    "implied": 15.2,
    "injury": null,
-   "rank": 181,
-   "pos_rank": 51
+   "rank": 179,
+   "pos_rank": 50
   },
   {
    "name": "Tyjae Spears",
@@ -2787,10 +2757,10 @@
    "floor": 1.0,
    "ceiling": 12.0,
    "last3": 5.1,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 182,
-   "pos_rank": 52
+   "rank": 180,
+   "pos_rank": 51
   },
   {
    "name": "Darius Cooper",
@@ -2804,8 +2774,8 @@
    "last3": 3.7,
    "implied": 17.0,
    "injury": null,
-   "rank": 183,
-   "pos_rank": 65
+   "rank": 181,
+   "pos_rank": 64
   },
   {
    "name": "Tyrone Tracy Jr.",
@@ -2819,8 +2789,8 @@
    "last3": 10.8,
    "implied": 20.2,
    "injury": null,
-   "rank": 184,
-   "pos_rank": 53
+   "rank": 182,
+   "pos_rank": 52
   },
   {
    "name": "Oronde Gadsden II",
@@ -2832,9 +2802,9 @@
    "floor": 0.9,
    "ceiling": 11.1,
    "last3": 5.2,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 185,
+   "rank": 183,
    "pos_rank": 30
   },
   {
@@ -2847,10 +2817,10 @@
    "floor": 1.0,
    "ceiling": 10.9,
    "last3": 4.0,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 186,
-   "pos_rank": 54
+   "rank": 184,
+   "pos_rank": 53
   },
   {
    "name": "Jalen Nailor",
@@ -2864,8 +2834,8 @@
    "last3": 5.9,
    "implied": 15.2,
    "injury": null,
-   "rank": 187,
-   "pos_rank": 66
+   "rank": 185,
+   "pos_rank": 65
   },
   {
    "name": "Dohnte Meyers",
@@ -2875,27 +2845,12 @@
    "home": false,
    "proj": 5.7,
    "floor": 0.4,
-   "ceiling": 10.4,
+   "ceiling": 10.5,
    "last3": 8.2,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
-   "rank": 188,
-   "pos_rank": 67
-  },
-  {
-   "name": "Gavin Bartholomew",
-   "pos": "TE",
-   "team": "MIN",
-   "opp": "SF",
-   "home": false,
-   "proj": 5.6,
-   "floor": 0.7,
-   "ceiling": 10.7,
-   "last3": 7.9,
-   "implied": 21.2,
-   "injury": null,
-   "rank": 189,
-   "pos_rank": 31
+   "rank": 186,
+   "pos_rank": 66
   },
   {
    "name": "Chris Bell",
@@ -2907,10 +2862,10 @@
    "floor": 0.4,
    "ceiling": 10.8,
    "last3": 4.1,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
-   "rank": 190,
-   "pos_rank": 68
+   "rank": 187,
+   "pos_rank": 67
   },
   {
    "name": "Brian Thomas Jr.",
@@ -2924,7 +2879,37 @@
    "last3": 4.7,
    "implied": 26.2,
    "injury": null,
-   "rank": 191,
+   "rank": 188,
+   "pos_rank": 68
+  },
+  {
+   "name": "Gavin Bartholomew",
+   "pos": "TE",
+   "team": "MIN",
+   "opp": "SF",
+   "home": false,
+   "proj": 5.5,
+   "floor": 0.7,
+   "ceiling": 10.6,
+   "last3": 7.9,
+   "implied": 21.5,
+   "injury": null,
+   "rank": 189,
+   "pos_rank": 31
+  },
+  {
+   "name": "Tez Johnson",
+   "pos": "WR",
+   "team": "TB",
+   "opp": "DET",
+   "home": false,
+   "proj": 5.5,
+   "floor": 0.2,
+   "ceiling": 10.8,
+   "last3": 7.4,
+   "implied": 19.8,
+   "injury": null,
+   "rank": 190,
    "pos_rank": 69
   },
   {
@@ -2937,25 +2922,10 @@
    "floor": 1.7,
    "ceiling": 9.8,
    "last3": 4.1,
-   "implied": 31.0,
+   "implied": 30.5,
    "injury": null,
-   "rank": 192,
-   "pos_rank": 55
-  },
-  {
-   "name": "Tez Johnson",
-   "pos": "WR",
-   "team": "TB",
-   "opp": "DET",
-   "home": false,
-   "proj": 5.5,
-   "floor": 0.2,
-   "ceiling": 10.8,
-   "last3": 7.4,
-   "implied": 19.5,
-   "injury": null,
-   "rank": 193,
-   "pos_rank": 70
+   "rank": 191,
+   "pos_rank": 54
   },
   {
    "name": "Isaac TeSlaa",
@@ -2967,10 +2937,10 @@
    "floor": 0.3,
    "ceiling": 10.8,
    "last3": 4.6,
-   "implied": 26.0,
+   "implied": 25.8,
    "injury": null,
-   "rank": 194,
-   "pos_rank": 71
+   "rank": 192,
+   "pos_rank": 70
   },
   {
    "name": "Kevin Coleman Jr.",
@@ -2982,10 +2952,10 @@
    "floor": 0.1,
    "ceiling": 10.2,
    "last3": 5.6,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
-   "rank": 195,
-   "pos_rank": 72
+   "rank": 193,
+   "pos_rank": 71
   },
   {
    "name": "Jack Bech",
@@ -2999,8 +2969,8 @@
    "last3": 3.1,
    "implied": 15.2,
    "injury": null,
-   "rank": 196,
-   "pos_rank": 73
+   "rank": 194,
+   "pos_rank": 72
   },
   {
    "name": "Rashod Bateman",
@@ -3012,10 +2982,10 @@
    "floor": 0.5,
    "ceiling": 10.9,
    "last3": 4.0,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
-   "rank": 197,
-   "pos_rank": 74
+   "rank": 195,
+   "pos_rank": 73
   },
   {
    "name": "Ja'Kobi Lane",
@@ -3023,14 +2993,14 @@
    "team": "BAL",
    "opp": "CAR",
    "home": false,
-   "proj": 5.3,
+   "proj": 5.2,
    "floor": 0.2,
    "ceiling": 11.9,
    "last3": 3.8,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
-   "rank": 198,
-   "pos_rank": 75
+   "rank": 196,
+   "pos_rank": 74
   },
   {
    "name": "Brevyn Spann-Ford",
@@ -3040,11 +3010,11 @@
    "home": true,
    "proj": 5.1,
    "floor": 0.8,
-   "ceiling": 9.1,
+   "ceiling": 9.3,
    "last3": 4.9,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
-   "rank": 199,
+   "rank": 197,
    "pos_rank": 32
   },
   {
@@ -3059,8 +3029,8 @@
    "last3": 5.9,
    "implied": 30.0,
    "injury": null,
-   "rank": 200,
-   "pos_rank": 56
+   "rank": 198,
+   "pos_rank": 55
   },
   {
    "name": "Darnell Mooney",
@@ -3074,8 +3044,8 @@
    "last3": 4.2,
    "implied": 20.2,
    "injury": null,
-   "rank": 201,
-   "pos_rank": 76
+   "rank": 199,
+   "pos_rank": 75
   },
   {
    "name": "Erick All",
@@ -3087,9 +3057,9 @@
    "floor": 0.4,
    "ceiling": 9.5,
    "last3": 4.5,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
-   "rank": 202,
+   "rank": 200,
    "pos_rank": 33
   },
   {
@@ -3102,10 +3072,10 @@
    "floor": 0.0,
    "ceiling": 10.6,
    "last3": 4.1,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 203,
-   "pos_rank": 77
+   "rank": 201,
+   "pos_rank": 76
   },
   {
    "name": "Chimere Dike",
@@ -3117,10 +3087,10 @@
    "floor": 0.0,
    "ceiling": 9.4,
    "last3": 7.4,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 204,
-   "pos_rank": 78
+   "rank": 202,
+   "pos_rank": 77
   },
   {
    "name": "Josh Cameron",
@@ -3134,8 +3104,8 @@
    "last3": 5.8,
    "implied": 26.2,
    "injury": null,
-   "rank": 205,
-   "pos_rank": 79
+   "rank": 203,
+   "pos_rank": 78
   },
   {
    "name": "Isaiah Williams",
@@ -3145,12 +3115,12 @@
    "home": false,
    "proj": 4.8,
    "floor": 0.1,
-   "ceiling": 10.0,
+   "ceiling": 9.9,
    "last3": 5.2,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
-   "rank": 206,
-   "pos_rank": 80
+   "rank": 204,
+   "pos_rank": 79
   },
   {
    "name": "Josh Palmer",
@@ -3162,10 +3132,10 @@
    "floor": 0.2,
    "ceiling": 9.9,
    "last3": 2.0,
-   "implied": 31.0,
+   "implied": 30.5,
    "injury": null,
-   "rank": 207,
-   "pos_rank": 81
+   "rank": 205,
+   "pos_rank": 80
   },
   {
    "name": "Cyrus Allen",
@@ -3177,10 +3147,10 @@
    "floor": 0.0,
    "ceiling": 9.6,
    "last3": 5.5,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
-   "rank": 208,
-   "pos_rank": 82
+   "rank": 206,
+   "pos_rank": 81
   },
   {
    "name": "Brandon Johnson",
@@ -3194,8 +3164,8 @@
    "last3": 5.5,
    "implied": 21.5,
    "injury": null,
-   "rank": 209,
-   "pos_rank": 83
+   "rank": 207,
+   "pos_rank": 82
   },
   {
    "name": "Theo Johnson",
@@ -3209,7 +3179,7 @@
    "last3": 5.1,
    "implied": 20.2,
    "injury": null,
-   "rank": 210,
+   "rank": 208,
    "pos_rank": 34
   },
   {
@@ -3220,11 +3190,11 @@
    "home": false,
    "proj": 4.6,
    "floor": 0.2,
-   "ceiling": 8.9,
+   "ceiling": 9.0,
    "last3": 4.5,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
-   "rank": 211,
+   "rank": 209,
    "pos_rank": 35
   },
   {
@@ -3239,8 +3209,8 @@
    "last3": 3.8,
    "implied": 17.0,
    "injury": null,
-   "rank": 212,
-   "pos_rank": 84
+   "rank": 210,
+   "pos_rank": 83
   },
   {
    "name": "John Metchie III",
@@ -3252,10 +3222,10 @@
    "floor": 0.1,
    "ceiling": 9.5,
    "last3": 3.9,
-   "implied": 23.0,
+   "implied": 23.2,
    "injury": null,
-   "rank": 213,
-   "pos_rank": 85
+   "rank": 211,
+   "pos_rank": 84
   },
   {
    "name": "Sione Vaki",
@@ -3263,14 +3233,14 @@
    "team": "DET",
    "opp": "TB",
    "home": true,
-   "proj": 4.5,
+   "proj": 4.6,
    "floor": 0.4,
-   "ceiling": 9.9,
+   "ceiling": 9.6,
    "last3": 5.9,
-   "implied": 26.0,
+   "implied": 25.8,
    "injury": null,
-   "rank": 214,
-   "pos_rank": 57
+   "rank": 212,
+   "pos_rank": 56
   },
   {
    "name": "Roschon Johnson",
@@ -3284,8 +3254,8 @@
    "last3": 1.7,
    "implied": 30.0,
    "injury": null,
-   "rank": 215,
-   "pos_rank": 58
+   "rank": 213,
+   "pos_rank": 57
   },
   {
    "name": "Marvin Mims Jr.",
@@ -3299,8 +3269,8 @@
    "last3": 4.7,
    "implied": 25.2,
    "injury": null,
-   "rank": 216,
-   "pos_rank": 86
+   "rank": 214,
+   "pos_rank": 85
   },
   {
    "name": "Nate Boerkircher",
@@ -3314,7 +3284,7 @@
    "last3": 6.8,
    "implied": 26.2,
    "injury": null,
-   "rank": 217,
+   "rank": 215,
    "pos_rank": 36
   },
   {
@@ -3325,12 +3295,12 @@
    "home": true,
    "proj": 4.4,
    "floor": 0.2,
-   "ceiling": 9.9,
+   "ceiling": 9.8,
    "last3": 3.2,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
-   "rank": 218,
-   "pos_rank": 59
+   "rank": 216,
+   "pos_rank": 58
   },
   {
    "name": "Cody White",
@@ -3344,8 +3314,8 @@
    "last3": 1.5,
    "implied": 15.2,
    "injury": null,
-   "rank": 219,
-   "pos_rank": 87
+   "rank": 217,
+   "pos_rank": 86
   },
   {
    "name": "Myles Price",
@@ -3355,12 +3325,12 @@
    "home": false,
    "proj": 4.3,
    "floor": 0.0,
-   "ceiling": 9.5,
+   "ceiling": 9.6,
    "last3": 5.9,
-   "implied": 21.2,
+   "implied": 21.5,
    "injury": null,
-   "rank": 220,
-   "pos_rank": 88
+   "rank": 218,
+   "pos_rank": 87
   },
   {
    "name": "Laquon Treadwell",
@@ -3374,8 +3344,8 @@
    "last3": 4.7,
    "implied": 16.0,
    "injury": null,
-   "rank": 221,
-   "pos_rank": 89
+   "rank": 219,
+   "pos_rank": 88
   },
   {
    "name": "Josh Cuevas",
@@ -3385,11 +3355,11 @@
    "home": false,
    "proj": 4.3,
    "floor": 0.3,
-   "ceiling": 8.8,
+   "ceiling": 8.7,
    "last3": 3.1,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
-   "rank": 222,
+   "rank": 220,
    "pos_rank": 37
   },
   {
@@ -3402,9 +3372,9 @@
    "floor": 0.4,
    "ceiling": 8.1,
    "last3": 5.5,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 223,
+   "rank": 221,
    "pos_rank": 38
   },
   {
@@ -3419,8 +3389,8 @@
    "last3": 5.7,
    "implied": 16.0,
    "injury": null,
-   "rank": 224,
-   "pos_rank": 90
+   "rank": 222,
+   "pos_rank": 89
   },
   {
    "name": "Jalen Tolbert",
@@ -3432,10 +3402,10 @@
    "floor": -0.0,
    "ceiling": 8.8,
    "last3": 6.0,
-   "implied": 14.5,
+   "implied": 14.0,
    "injury": null,
-   "rank": 225,
-   "pos_rank": 91
+   "rank": 223,
+   "pos_rank": 90
   },
   {
    "name": "Noah Gray",
@@ -3447,9 +3417,9 @@
    "floor": 0.3,
    "ceiling": 7.9,
    "last3": 4.4,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
-   "rank": 226,
+   "rank": 224,
    "pos_rank": 39
   },
   {
@@ -3462,9 +3432,9 @@
    "floor": 0.0,
    "ceiling": 8.3,
    "last3": 0.5,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
-   "rank": 227,
+   "rank": 225,
    "pos_rank": 40
   },
   {
@@ -3477,9 +3447,9 @@
    "floor": 0.4,
    "ceiling": 7.2,
    "last3": 3.6,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 228,
+   "rank": 226,
    "pos_rank": 41
   },
   {
@@ -3492,10 +3462,10 @@
    "floor": 0.3,
    "ceiling": 8.3,
    "last3": 2.4,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 229,
-   "pos_rank": 60
+   "rank": 227,
+   "pos_rank": 59
   },
   {
    "name": "Chris Moore",
@@ -3507,10 +3477,10 @@
    "floor": -0.0,
    "ceiling": 8.7,
    "last3": 3.0,
-   "implied": 20.5,
+   "implied": 20.2,
    "injury": null,
-   "rank": 230,
-   "pos_rank": 92
+   "rank": 228,
+   "pos_rank": 91
   },
   {
    "name": "Brandin Cooks",
@@ -3522,10 +3492,10 @@
    "floor": -0.0,
    "ceiling": 8.3,
    "last3": 3.0,
-   "implied": 24.2,
+   "implied": 25.0,
    "injury": null,
-   "rank": 231,
-   "pos_rank": 93
+   "rank": 229,
+   "pos_rank": 92
   },
   {
    "name": "Drew Sample",
@@ -3537,9 +3507,9 @@
    "floor": 0.2,
    "ceiling": 8.4,
    "last3": 7.5,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
-   "rank": 232,
+   "rank": 230,
    "pos_rank": 42
   },
   {
@@ -3554,8 +3524,8 @@
    "last3": 4.8,
    "implied": 17.0,
    "injury": null,
-   "rank": 233,
-   "pos_rank": 61
+   "rank": 231,
+   "pos_rank": 60
   },
   {
    "name": "Sean Tucker",
@@ -3567,10 +3537,10 @@
    "floor": 0.0,
    "ceiling": 7.2,
    "last3": 3.7,
-   "implied": 19.5,
+   "implied": 19.8,
    "injury": null,
-   "rank": 234,
-   "pos_rank": 62
+   "rank": 232,
+   "pos_rank": 61
   },
   {
    "name": "Xavier Restrepo",
@@ -3582,10 +3552,10 @@
    "floor": -0.0,
    "ceiling": 8.2,
    "last3": 2.9,
-   "implied": 23.0,
+   "implied": 23.5,
    "injury": null,
-   "rank": 235,
-   "pos_rank": 94
+   "rank": 233,
+   "pos_rank": 93
   },
   {
    "name": "Theo Wease Jr.",
@@ -3597,10 +3567,10 @@
    "floor": 0.0,
    "ceiling": 8.3,
    "last3": 2.2,
-   "implied": 22.5,
+   "implied": 22.2,
    "injury": null,
-   "rank": 236,
-   "pos_rank": 95
+   "rank": 234,
+   "pos_rank": 94
   },
   {
    "name": "Davis Mills",
@@ -3614,7 +3584,7 @@
    "last3": 5.7,
    "implied": 28.5,
    "injury": null,
-   "rank": 237,
+   "rank": 235,
    "pos_rank": 38
   },
   {
@@ -3627,9 +3597,9 @@
    "floor": 0.0,
    "ceiling": 7.9,
    "last3": 3.3,
-   "implied": 29.5,
+   "implied": 29.8,
    "injury": null,
-   "rank": 238,
+   "rank": 236,
    "pos_rank": 43
   },
   {
@@ -3642,10 +3612,10 @@
    "floor": -0.0,
    "ceiling": 9.5,
    "last3": 2.4,
-   "implied": 31.5,
+   "implied": 32.0,
    "injury": null,
-   "rank": 239,
-   "pos_rank": 96
+   "rank": 237,
+   "pos_rank": 95
   },
   {
    "name": "Zay Jones",
@@ -3657,10 +3627,10 @@
    "floor": -0.0,
    "ceiling": 6.4,
    "last3": 2.9,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 240,
-   "pos_rank": 97
+   "rank": 238,
+   "pos_rank": 96
   },
   {
    "name": "Ben Sinnott",
@@ -3669,12 +3639,12 @@
    "opp": "CIN",
    "home": true,
    "proj": 3.2,
-   "floor": -0.0,
+   "floor": 0.0,
    "ceiling": 5.8,
    "last3": 4.7,
-   "implied": 23.0,
+   "implied": 23.8,
    "injury": null,
-   "rank": 241,
+   "rank": 239,
    "pos_rank": 44
   },
   {
@@ -3683,13 +3653,13 @@
    "team": "NYJ",
    "opp": "LAC",
    "home": false,
-   "proj": 3.1,
+   "proj": 3.2,
    "floor": -0.0,
    "ceiling": 5.3,
    "last3": 5.0,
-   "implied": 19.0,
+   "implied": 19.2,
    "injury": null,
-   "rank": 242,
+   "rank": 240,
    "pos_rank": 45
   },
   {
@@ -3704,7 +3674,7 @@
    "last3": 3.5,
    "implied": 16.0,
    "injury": null,
-   "rank": 243,
+   "rank": 241,
    "pos_rank": 46
   },
   {
@@ -3719,8 +3689,8 @@
    "last3": 5.0,
    "implied": 18.5,
    "injury": null,
-   "rank": 244,
-   "pos_rank": 98
+   "rank": 242,
+   "pos_rank": 97
   },
   {
    "name": "Ian Thomas",
@@ -3734,7 +3704,7 @@
    "last3": 2.0,
    "implied": 15.2,
    "injury": null,
-   "rank": 245,
+   "rank": 243,
    "pos_rank": 47
   },
   {
@@ -3749,7 +3719,7 @@
    "last3": 2.8,
    "implied": 25.2,
    "injury": null,
-   "rank": 246,
+   "rank": 244,
    "pos_rank": 48
   },
   {
@@ -3764,7 +3734,7 @@
    "last3": 8.2,
    "implied": 26.2,
    "injury": null,
-   "rank": 247,
+   "rank": 245,
    "pos_rank": 39
   },
   {
@@ -3777,9 +3747,9 @@
    "floor": -0.3,
    "ceiling": 10.2,
    "last3": 5.7,
-   "implied": 29.0,
+   "implied": 28.5,
    "injury": null,
-   "rank": 248,
+   "rank": 246,
    "pos_rank": 40
   },
   {
@@ -3792,9 +3762,9 @@
    "floor": 0.1,
    "ceiling": 4.7,
    "last3": 5.8,
-   "implied": 12.5,
+   "implied": 12.0,
    "injury": null,
-   "rank": 249,
+   "rank": 247,
    "pos_rank": 49
   }
  ]
